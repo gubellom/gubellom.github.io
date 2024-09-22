@@ -27,7 +27,7 @@ navigation:                # accepts {file, title, url, icon, sidebaricon}
   #- {title: Github, icon: github, url: "https://gubellom.github.io"}
   #- {title: Subscribe, icon: rss, url: "/feed.xml"}
 
-comments:
+#comments:
 #  disqus_shortname: ""    # see https://disqus.com/
 #  isso_domain: ""         # see https://posativ.org/isso/
 
