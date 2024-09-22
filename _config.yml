@@ -25,7 +25,7 @@ navigation:                # accepts {file, title, url, icon, sidebaricon}
   #- {file: "cv.pdf", title: "CV", icon:  Home }
 
 
-#external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
+external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
   #- {title: Mail, icon: envelope, url: "michele.gubello@esri.ie"}
   #- {title: Github, icon: github, url: "https://gubellom.github.io"}
   #- {title: Subscribe, icon: rss, url: "/feed.xml"}
@@ -34,5 +34,5 @@ navigation:                # accepts {file, title, url, icon, sidebaricon}
 #  disqus_shortname: ""    # see https://disqus.com/
 #  isso_domain: ""         # see https://posativ.org/isso/
 
-# plugins:
-# - jekyll-feed
+ plugins:
+- jekyll-feed
