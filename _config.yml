@@ -17,8 +17,7 @@ minimal: false             # use a dark header
 
 navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {file: "README.md", title: "About me", icon: address-card}
-  #- {title: "Replication code", icon: github, url: "https://github.com/gubellom"}
-  #- {file: "cv.pdf", title: "CV", icon:  Home }
+
 
 #external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
   #- {title: Mail, icon: envelope, url: "michele.gubello@esri.ie"}
