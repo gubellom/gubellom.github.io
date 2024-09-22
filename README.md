@@ -4,7 +4,7 @@ permalink: "/about/"
 layout: page
 ---
 
-## About me # [repository](https://github.com/niklasbuschmann/contrast
+## About me 
 
 Ciao, 
 
