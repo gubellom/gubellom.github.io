@@ -4,11 +4,11 @@ layout: page
 title: "Michele Gubello"
 ---
 
-### Publications and replication codes
+# Publications and replication codes
 - "Social trust and the support for universal basic income", [European Journal of Political Economy](https://doi.org/10.1016/j.ejpoleco.2023.102495), 2024, [[Replication code](https://github.com/gubellom/replication-code-UBI-paper)]
 
-### Ongoing work 
-# (replication code available once the research articles are published)
+# Ongoing work 
+### (replication code available once the research articles are published)
 
 - The political economy of in-kind versus cash redistribution in Europe (with S.M. Dunne) (*under revision*)
 - Inherited Social Trust and Depression Among Second-generation Immigrants (*under revision*)
