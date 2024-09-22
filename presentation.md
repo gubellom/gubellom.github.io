@@ -1,8 +1,10 @@
 ---
 layout: page
-title: "About me"
+title: "Michele Gubello"
 permalink: "/"
 ---
+
+##About me
 Ciao,
 
 I am a postdoctoral research fellow at the [Economic and Social Research Institute, Dublin](https://www.esri.ie/people/michele-gubello). I have a PhD in Economics from University College Dublin, a joint MSc in Models and Methods of Quantitative Economics (specialised in Operational Research and Mathematical Optimization) from University of Paris 1 Pantheon-Sorbonne and Ca’Foscari University of Venice, and a BA in Economics from Ca’Foscari University of Venice.
