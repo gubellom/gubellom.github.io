@@ -20,7 +20,7 @@ minimal: false             # use a dark header
 navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {file: "presentation.md", title: "About me", icon: home}
   - {file: "replication.md", title: "Research and replication codes", icon: github }
-  - {file: "CV.md", title: "CV and contact", icon: envelope }
+  - {file: "CV.pdf", title: "CV", icon: envelope }
   
 
     #- {title: "Replication code", icon: github, url: "https://github.com/gubellom"}
