@@ -12,7 +12,7 @@ title: "Michele Gubello"
 
 - The political economy of in-kind versus cash redistribution in Europe (with S.M. Dunne) (*under revision*)
 - Inherited Social Trust and Depression Among Second-generation Immigrants (*under revision*)
-- A Theory of Perverse Redistribution in Higher Education in Europe (with [N.M. Strecker](https://sites.google.com/site/nmstrecker/) [[Working Paper, 2022](https://scholar.google.com/citations?view_op=view_citation&hl=it&user=hvftyd4AAAAJ&citation_for_view=hvftyd4AAAAJ:u5HHmVD_uO8C)] (*new version available soon*)
+- A Theory of Perverse Redistribution in Higher Education in Europe (with [N.M. Strecker](https://sites.google.com/site/nmstrecker/)) [[Working Paper, 2022](https://scholar.google.com/citations?view_op=view_citation&hl=it&user=hvftyd4AAAAJ&citation_for_view=hvftyd4AAAAJ:u5HHmVD_uO8C)] (*new version available soon*)
 - Drivers of Income Inequality in Ireland and Northern Ireland (with K. Doorley and D. Tuda) (*draft available soon*)
 - Economic Insecurity and the Demand for Climate Policies (with K. Doorley and C. Keane) (*draft available soon*)
 - A Microsimulation Analysis of Universal Basic Income in Ireland (with T. Kakoulidou) (*draft available soon*)
