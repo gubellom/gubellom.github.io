@@ -34,5 +34,5 @@ navigation:                # accepts {file, title, url, icon, sidebaricon}
 #  disqus_shortname: ""    # see https://disqus.com/
 #  isso_domain: ""         # see https://posativ.org/isso/
 
- plugins:
-- jekyll-feed
+ #plugins:
+#- jekyll-feed
