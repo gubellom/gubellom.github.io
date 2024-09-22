@@ -1,5 +1,5 @@
 ---
-permalink:  "/replication/"
+permalink:  "/michelegubello_replication/"
 layout: page
 title: "Publications and replication codes"
 ---
