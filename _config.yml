@@ -27,7 +27,7 @@ navigation:                # accepts {file, title, url, icon, sidebaricon}
   #- {file: "cv.pdf", title: "CV", icon:  Home }
 
 
-external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
+#external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
   #- {title: Mail, icon: envelope, url: "michele.gubello@esri.ie"}
   # {title: Google Shcolar, icon: github, url: "https://gubellom.github.io"}
   #- {title: Subscribe, icon: rss, url: "/feed.xml"}
