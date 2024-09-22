@@ -1,6 +1,7 @@
 ---
+layout: default
 title: "About me"
-layout: page
+permalink: /
 ---
 
 Ciao,
