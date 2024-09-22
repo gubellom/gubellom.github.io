@@ -1,6 +1,5 @@
 ---
 title: "About me"
-permalink: /michelegubello_about/
 layout: page
 ---
 
