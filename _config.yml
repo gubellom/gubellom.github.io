@@ -1,4 +1,4 @@
-title: "Michele Gubello"
+etitle: "Michele Gubello"
 author: "Michele Gubello"
 description: "  "
 permalink: /:title/
@@ -17,7 +17,7 @@ minimal: false             # use a dark header
 # Menu
 
 navigation:                # accepts {file, title, url, icon, sidebaricon}
-  - {title: "About me", file: "README.md"}
+  - {title: "About me", file: "presentation.md"}
   - {file: "replication.md", title: "Research and replication codes", icon: github }
   
 
