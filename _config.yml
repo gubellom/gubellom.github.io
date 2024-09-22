@@ -16,8 +16,9 @@ minimal: false             # use a dark header
 # Menu
 
 navigation:                # accepts {file, title, url, icon, sidebaricon}
-  - {file: "index.html", title: "Home", icon:  Home }
+  - {file: "cv.pdf", title: "CV", icon:  Home }
   - {file: "README.md", title: "About me", icon: address-card}
+  - {title: "Replication code", file: "replication.md"}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
   - {title: Mail, icon: envelope, url: "michele.gubello@esri.ie"}
