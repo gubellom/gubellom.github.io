@@ -4,7 +4,7 @@ title: "Michele Gubello"
 permalink: "/"
 ---
 
-#About me
+## About me
 
 Ciao,
 
