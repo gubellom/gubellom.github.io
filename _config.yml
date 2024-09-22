@@ -20,16 +20,16 @@ minimal: false             # use a dark header
 navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {file: "presentation.md", title: "About me", icon: home}
   - {file: "replication.md", title: "Research and replication codes", icon: github }
-
+  - {file: "CV.md", title: "CV and contact", icon: envelope }
   
 
     #- {title: "Replication code", icon: github, url: "https://github.com/gubellom"}
   #- {file: "cv.pdf", title: "CV", icon:  Home }
 
 
-#external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
+external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
   #- {title: Mail, icon: envelope, url: "michele.gubello@esri.ie"}
-  #- {title: Github, icon: github, url: "https://gubellom.github.io"}
+  # {title: Google Shcolar, icon: github, url: "https://gubellom.github.io"}
   #- {title: Subscribe, icon: rss, url: "/feed.xml"}
 
 #comments:
