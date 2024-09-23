@@ -9,7 +9,7 @@ title: "Michele Gubello"
 
 # Working papers
 
-- Weakly Progressive: Disproportionate Higher Education Attendance and the Structure of Income Taxes (with [N.M. Strecker](https://sites.google.com/site/nmstrecker/)) [[UCD Centre for Economic Research Working Paper Series 2022,  WP22/26](https://www.econstor.eu/bitstream/10419/296672/1/WP22_26.pdf)] (*new version available soon*)
+- Weakly Progressive: Disproportionate Higher Education Attendance and the Structure of Income Taxes (with [N.M. Strecker](https://sites.google.com/site/nmstrecker/)) [[UCD Centre for Economic Research Working Paper Series 2022,  WP22/26](https://hdl.handle.net/10419/296672)] (*new version available soon*)
 
 # Other ongoing work 
 
