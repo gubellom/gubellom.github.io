@@ -14,4 +14,3 @@ On this website, I will mostly share the replication code of my publicly availab
 
 You can contact me at: michele.gubello@esri.ie
 
-Smell ya later!
