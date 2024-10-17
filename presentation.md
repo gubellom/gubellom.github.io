@@ -14,5 +14,5 @@ I have a PhD in Economics from University College Dublin, a joint MSc in Models 
 
 On this website, I will mostly share the replication code of my publicly available research.
 
-You can contact me at: michele dot gubello at esri dot ie
+You can contact me at: michele [dot] gubello [at] esri [dot] ie
 
