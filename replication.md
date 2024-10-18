@@ -8,11 +8,11 @@ title: "Michele Gubello"
 - Drivers of Income Inequality in Ireland and Northern Ireland (with K. Doorley and D. Tuda), [ESRI research series](https://www.esri.ie/publications/drivers-of-income-inequality-in-ireland-and-northern-ireland), 2024, [Media coverage: [ The Irish Times](https://www.irishtimes.com/politics/2024/10/18/four-fifths-of-northern-irish-household-receive-more-in-benefits-than-they-pay-in-tax/), [RTÉ](https://www.rte.ie/news/business/2024/1018/1476087-income-esri/), [The Irish News](https://www.irishnews.com/news/northern-ireland/income-inequality-in-ireland-and-northern-ireland-very-similar-study-MLU3CDQYBNERLHCDCPCRGDNUOI/), [Belfast Telegraph](https://www.belfasttelegraph.co.uk/news/republic-of-ireland/income-inequality-in-ireland-and-northern-ireland-very-similar-study/a2026592143.html)]
 
 # Academic publications
-- "Social trust and the support for universal basic income", [European Journal of Political Economy](https://doi.org/10.1016/j.ejpoleco.2023.102495), 2024, [[Replication code](https://github.com/gubellom/replication-code-UBI-paper)]
+- Social trust and the support for universal basic income, [European Journal of Political Economy](https://doi.org/10.1016/j.ejpoleco.2023.102495), 2024, [[Replication code](https://github.com/gubellom/replication-code-UBI-paper)]
 
 # Working papers
 
-- A Theory of Perverse Redistribution in Higher Education and Income Tax Progressivity in Europe (with [N.M. Strecker](https://sites.google.com/site/nmstrecker/)), 2024, [[Online Appendix](https://sites.google.com/site/nmstrecker/GS-OA?authuser=0) (*under revision*)]
+- A Theory of Perverse Redistribution in Higher Education and Income Tax Progressivity in Europe (with [N.M. Strecker](https://sites.google.com/site/nmstrecker/)), 2024, [[Online Appendix](https://sites.google.com/site/nmstrecker/GS-OA?authuser=0)] (*under revision*)
      - Previously circulated as: *previously circulated as Weakly Progressive: Disproportionate Higher Education Attendance and the Structure of Income Taxes*, 2022, [[UCD Centre for Economic Research Working Paper Series 2022,  WP22/26](https://hdl.handle.net/10419/296672)] 
 
 # Other ongoing work 
