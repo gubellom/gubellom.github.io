@@ -8,7 +8,7 @@ title: "Michele Gubello"
 - "Social trust and the support for universal basic income", [European Journal of Political Economy](https://doi.org/10.1016/j.ejpoleco.2023.102495), 2024, [[Replication code](https://github.com/gubellom/replication-code-UBI-paper)]
 
 # Policy reports  
-- [Drivers of Income Inequality in Ireland and Northern Ireland](https://www.esri.ie/publications/drivers-of-income-inequality-in-ireland-and-northern-ireland) (with K. Doorley and D. Tuda)  [Media coverage: [ The Irish Times](https://www.irishtimes.com/politics/2024/10/18/four-fifths-of-northern-irish-household-receive-more-in-benefits-than-they-pay-in-tax/), [RTÉ](https://www.rte.ie/news/business/2024/1018/1476087-income-esri/) ]
+- [Drivers of Income Inequality in Ireland and Northern Ireland](https://www.esri.ie/publications/drivers-of-income-inequality-in-ireland-and-northern-ireland) (with K. Doorley and D. Tuda)  [Media coverage: [ The Irish Times](https://www.irishtimes.com/politics/2024/10/18/four-fifths-of-northern-irish-household-receive-more-in-benefits-than-they-pay-in-tax/), [RTÉ](https://www.rte.ie/news/business/2024/1018/1476087-income-esri/), [The Irish News](https://www.irishnews.com/news/northern-ireland/income-inequality-in-ireland-and-northern-ireland-very-similar-study-MLU3CDQYBNERLHCDCPCRGDNUOI/) ]
 
 # Working papers
 
