@@ -12,7 +12,7 @@ title: "Michele Gubello"
 
 # Working papers
 
-- A Theory of Perverse Redistribution in Higher Education and Income Tax Progressivity in Europe (with [N.M. Strecker](https://sites.google.com/site/nmstrecker/)), 2024 (*under revision*)
+- A Theory of Perverse Redistribution in Higher Education and Income Tax Progressivity in Europe (with [N.M. Strecker](https://sites.google.com/site/nmstrecker/)), 2024, [[Online Appendix](https://sites.google.com/site/nmstrecker/GS-OA?authuser=0) (*under revision*)]
      - Previously circulated as: *previously circulated as Weakly Progressive: Disproportionate Higher Education Attendance and the Structure of Income Taxes*, 2022, [[UCD Centre for Economic Research Working Paper Series 2022,  WP22/26](https://hdl.handle.net/10419/296672)] 
 
 # Other ongoing work 
