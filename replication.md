@@ -13,7 +13,7 @@ title: "Michele Gubello"
 
 ## Other ongoing work 
 
-- The political economy of in-kind versus cash redistribution in Europe (with S.M. Dunne) (*R&R*)
+- The political economy of in-kind versus cash redistribution in Europe (with S.M. Dunne) (*Revise and Resubmit*)
 - Inherited Social Trust and Depression Among Second-generation Immigrants (*under revision*)
 - Institutional trust, size of welfare state and preferences for tax progressivity (*draft available soon*)
 - Economic Insecurity and the Demand for Climate Policies (with C. Keane) (*draft available soon*)
