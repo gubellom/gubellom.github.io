@@ -15,8 +15,8 @@ title: "Michele Gubello"
 
 - The political economy of in-kind versus cash redistribution in Europe (with S.M. Dunne) (*Revise and Resubmit*)
 - Inherited Social Trust and Depression Among Second-generation Immigrants (*under revision*)
-- Institutional trust, size of welfare state and preferences for tax progressivity (*draft available soon*)
 - Economic insecurity, greenlash and the demand for climate policies in Europe (with C. Keane) (*submitted*)
+- Institutional trust, size of welfare state and preferences for tax progressivity (*draft available soon*)
 - A Microsimulation Analysis of Universal Basic Income in Ireland (with T. Kakoulidou) (*draft available soon*)
 - Desired Hours Worked Over the Business Cycle: Stylised Facts for European Countries (with [D. Tuda](https://sites.google.com/view/doratuda)) (*draft available soon*)
 
