@@ -17,5 +17,7 @@ I have a PhD in Economics from University College Dublin, a joint MSc in Models 
 
 On this website, I will mostly share the replication code of my publicly available research.
 
+My Job Market Paper can be found [HERE](https://github.com/gubellom/gubellom.github.io/blob/08a796242d7b318da46db7af43404064cdba8e53/Economic%20insecurity%2C%20greenlash%20and%20the%20demand%20for%20climate%20policies.pdf)
+
 You can contact me at: michele [dot] gubello [at] esri [dot] ie
 
