@@ -6,6 +6,9 @@ title: "Michele Gubello"
 
 # Ongoing work
 
+### Job Market Paper
+- Economic insecurity, greenlash and the demand for climate policies in Europe (with C. Keane) [[LINK](https://github.com/gubellom/gubellom.github.io/blob/08a796242d7b318da46db7af43404064cdba8e53/Economic%20insecurity%2C%20greenlash%20and%20the%20demand%20for%20climate%20policies.pdf)]
+
 ### Working papers
 
 - A Theory of Perverse Redistribution in Higher Education and Income Tax Progressivity in Europe (with [N.M. Strecker](https://sites.google.com/site/nmstrecker/)), 2024, [[LIS Working Paper Series. No. 889](https://www.lisdatacenter.org/wps/liswps/889.pdf)] [[CEPR Discussion paper DP19671](https://cepr.org/publications/dp19671)] [[Online Appendix](https://sites.google.com/site/nmstrecker/GS-OA?authuser=0)] (*under revision*)
@@ -15,7 +18,6 @@ title: "Michele Gubello"
 
 - The political economy of in-kind versus cash redistribution in Europe (with S.M. Dunne) (*Revise and Resubmit*)
 - Inherited Social Trust and Depression Among Second-generation Immigrants (*under revision*)
-- Economic insecurity, greenlash and the demand for climate policies in Europe (with C. Keane) (*submitted*)
 - Institutional trust, size of welfare state and preferences for tax progressivity (*draft available soon*)
 - A Microsimulation Analysis of Universal Basic Income in Ireland (with T. Kakoulidou) (*draft available soon*)
 - Desired Hours Worked Over the Business Cycle: Stylised Facts for European Countries (with [D. Tuda](https://sites.google.com/view/doratuda)) (*draft available soon*)
