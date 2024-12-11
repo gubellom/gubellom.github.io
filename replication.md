@@ -23,6 +23,9 @@ title: "Michele Gubello"
 
 - The political economy of in-kind versus cash redistribution in Europe (with S.M. Dunne) (*Revise and Resubmit*) [[Link to the paper](https://github.com/gubellom/gubellom.github.io/blob/243986a15d3c0efa08048bdb46ca6508d5781476/Cash_vs_in_kind_paper__Pre_revisions_.pdf)]
 - Inherited Social Trust and Depression Among Second-generation Immigrants (*under revision*) [[Link to the paper](https://github.com/gubellom/gubellom.github.io/blob/243986a15d3c0efa08048bdb46ca6508d5781476/Social_capital_and_depression.pdf)]
+
+# Other ongoing work
+
 - Institutional trust, size of welfare state and preferences for tax progressivity (*draft available soon*)
 - A Microsimulation Analysis of Universal Basic Income in Ireland (with T. Kakoulidou) (*draft available soon*)
 - Desired Hours Worked Over the Business Cycle: Stylised Facts for European Countries (with [D. Tuda](https://sites.google.com/view/doratuda)) (*draft available soon*)
