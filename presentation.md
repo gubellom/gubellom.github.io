@@ -7,6 +7,9 @@ permalink: "/"
   <meta name="google-site-verification" content="VwKxZ5CBLhIcZXzI63qLFH1Hf-oeVN8g6N5vHHBaRAs" />
 </head>
 
+![My Photo](profile.jpg)
+
+
 ## About me
 
 Ciao,
