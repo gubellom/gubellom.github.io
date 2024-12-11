@@ -13,9 +13,7 @@ permalink: "/"
   </div>
   <div style="flex: 2; margin-left: 20px;">
     <p>
-
 I am a postdoctoral research fellow at the [Economic and Social Research Institute, Dublin](https://www.esri.ie/people/michele-gubello). I am also a Visiting Research Fellow at Trinity College Dublin and a member of the [Irish EUROMOD Team](https://euromod-web.jrc.ec.europa.eu/overview/country-by-country/detail?id=10).
-
     </p>
   </div>
 </div>
