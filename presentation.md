@@ -8,13 +8,10 @@ permalink: "/"
 </head>
 
 
-<div style="display: flex; align-items: center;">
-  <div style="flex: 1;">
-    <img src="https://github.com/gubellom/gubellom.github.io/blob/master/profile_50.jpg?raw=true" alt="My Photo" style="width:150px; border-radius:50%;">
-  </div>
-  <div style="flex: 2; margin-left: 20px;">
-    <p>
 ## About me
+
+![Alt text](https://github.com/gubellom/gubellom.github.io/blob/master/profile_50.jpg?raw=true)
+
 
 Ciao,
 
@@ -29,8 +26,6 @@ On this website, I will mostly share the replication codes of my publicly availa
 My Job Market Paper can be found [HERE](https://github.com/gubellom/gubellom.github.io/blob/08a796242d7b318da46db7af43404064cdba8e53/Economic%20insecurity%2C%20greenlash%20and%20the%20demand%20for%20climate%20policies.pdf)
 
 You can contact me at: michele [dot] gubello [at] esri [dot] ie
-</p>
-  </div>
-</div>
+
 
 
