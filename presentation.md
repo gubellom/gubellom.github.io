@@ -14,7 +14,7 @@ permalink: "/"
   <div style="flex: 2; margin-left: 20px;">
     <p>
 I am a postdoctoral research fellow at the <a href="https://www.esri.ie/people/michele-gubello">Economic and Social Research Institute, Dublin</a>. I am also a Visiting Research Fellow at Trinity College Dublin and a member of the <a href="https://euromod-web.jrc.ec.europa.eu/overview/country-by-country/detail?id=10">Irish EUROMOD Team</a>. <br>
-
+<br>
 My research interests include topics at the intersection of public economics, environmental economics, political economy, and socioeconomics.
     </p>
   </div>
