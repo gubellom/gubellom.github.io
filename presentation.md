@@ -9,7 +9,7 @@ permalink: "/"
 
 <div style="display: flex; align-items: center;">
   <div style="flex: 1;">
-    <img src="https://yourusername.github.io/repo-name/assets/images/myphoto.jpg" alt="My Photo" style="width:150px; border-radius:50%;">
+    <img src="https://github.com/gubellom/gubellom.github.io/blob/master/profile_50.jpg?raw=true" alt="My Photo" style="width:150px; border-radius:50%;">
   </div>
   <div style="flex: 2; margin-left: 20px;">
     <p>
