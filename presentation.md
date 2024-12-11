@@ -7,7 +7,7 @@ permalink: "/"
   <meta name="google-site-verification" content="VwKxZ5CBLhIcZXzI63qLFH1Hf-oeVN8g6N5vHHBaRAs" />
 </head>
 
-![image alt](https://github.com/gubellom/gubellom.github.io/blob/82a8efaf3d79449435566393bdd4c2c73ec45942/profile.JPG)
+![image alt](https://github.com/gubellom/gubellom.github.io/blob/82a8efaf3d79449435566393bdd4c2c73ec45942/profile.JPG){: style="width:200px; height:auto;" }
 
 
 ## About me
