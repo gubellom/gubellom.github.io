@@ -7,7 +7,15 @@ permalink: "/"
   <meta name="google-site-verification" content="VwKxZ5CBLhIcZXzI63qLFH1Hf-oeVN8g6N5vHHBaRAs" />
 </head>
 
-![Alt text](https://github.com/gubellom/gubellom.github.io/blob/master/profile_50.jpg?raw=true)
+
+<div style="display: flex; align-items: center;">
+  <div style="flex: 1;">
+    <img src="https://github.com/gubellom/gubellom.github.io/blob/master/profile_50.jpg?raw=true" alt="My Photo" style="width:150px; border-radius:50%;">
+  </div>
+  <div style="flex: 2; margin-left: 20px;">
+    <p>Welcome! My name is Michele Gubello. I am passionate about [your topics here]. This website showcases my projects, ideas, and more.</p>
+  </div>
+</div>
 
 ## About me
 
