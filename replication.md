@@ -27,7 +27,7 @@ title: "Michele Gubello"
 # Other ongoing work
 
 - Institutional trust, size of welfare state and preferences for tax progressivity (*draft available soon*)
-- A Microsimulation Analysis of Universal Basic Income in Ireland (with T. Kakoulidou) (*draft available soon*)
+- Neither a Panacea Nor a Cheap Solution: A Universal Basic Income Analysis for Ireland (with T. Kakoulidou) (*draft available upon request*)
 - Desired Hours Worked Over the Business Cycle: Stylised Facts for European Countries (with [D. Tuda](https://sites.google.com/view/doratuda)) (*draft available soon*)
 
 
