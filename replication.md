@@ -22,7 +22,7 @@ title: "Michele Gubello"
      - Previously circulated as: *Weakly Progressive: Disproportionate Higher Education Attendance and the Structure of Income Taxes*, 2022, [[UCD Centre for Economic Research Working Paper Series 2022,  WP22/26](https://hdl.handle.net/10419/296672)] 
 
 - The political economy of in-kind versus cash redistribution in Europe (with S.M. Dunne) (*Revise and Resubmit*) [[Link to the paper](https://github.com/gubellom/gubellom.github.io/blob/243986a15d3c0efa08048bdb46ca6508d5781476/Cash_vs_in_kind_paper__Pre_revisions_.pdf)]
-- Inherited Social Trust and Depression Among Second-generation Immigrants (*Revise and Resubmit*) [[Link to the paper](https://github.com/gubellom/gubellom.github.io/blob/243986a15d3c0efa08048bdb46ca6508d5781476/Social_capital_and_depression.pdf)]
+- Inherited Social Trust and Depression Among Second-generation Immigrants (*Revise and Resubmit*) [[Link to the paper](https://github.com/gubellom/gubellom.github.io/blob/1f186c1b6d4d4a7eae9d42b5208e1130ca4e0913/Social_capital_and_depression.pdf)]
 
 # Other ongoing work
 
