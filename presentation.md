@@ -29,6 +29,9 @@ On this website, I will mostly share the replication codes of my publicly availa
 You can contact me at: michele [dot] gubello [at] esri [dot] ie
 
 
+| <a href="https://gubellom.github.io/michelegubello_replication">RESEARCH</a>  | <a href="https://gubellom.github.io/michelegubello_cv/">CV</a> |
+
+
 
 
 
