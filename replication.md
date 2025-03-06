@@ -17,18 +17,18 @@ title: "Michele Gubello"
 
 ## Working papers
 
-- A Theory of Perverse Redistribution in Higher Education and Income Tax Progressivity in Europe (with [N.M. Strecker](https://sites.google.com/site/nmstrecker/)), 2024, [[LIS Working Paper Series. No. 889](https://www.lisdatacenter.org/wps/liswps/889.pdf)] [[CEPR Discussion paper DP19671](https://cepr.org/publications/dp19671)] [[Online Appendix](https://sites.google.com/site/nmstrecker/GS-OA?authuser=0)] (*under revision*)
+- A Theory of Perverse Redistribution in Higher Education and Income Tax Progressivity in Europe (with [N.M. Strecker](https://sites.google.com/site/nmstrecker/)), 2024, [[LIS Working Paper Series. No. 889](https://www.lisdatacenter.org/wps/liswps/889.pdf)] [[CEPR Discussion paper DP19671](https://cepr.org/publications/dp19671)] [[Online Appendix](https://sites.google.com/site/nmstrecker/GS-OA?authuser=0)] (*submitted*)
      - Previously circulated as: *Weakly Progressive: Disproportionate Higher Education Attendance and the Structure of Income Taxes*, 2022, [[UCD Centre for Economic Research Working Paper Series 2022,  WP22/26](https://hdl.handle.net/10419/296672)] 
 
-- The political economy of in-kind versus cash redistribution in Europe (with S.M. Dunne) (*Revise and Resubmit*) [[Link to the paper](https://github.com/gubellom/gubellom.github.io/blob/243986a15d3c0efa08048bdb46ca6508d5781476/Cash_vs_in_kind_paper__Pre_revisions_.pdf)]
-- Inherited Social Trust and Depression Among Second-generation Immigrants (*Revise and Resubmit*) [[Link to the paper](https://github.com/gubellom/gubellom.github.io/blob/1f186c1b6d4d4a7eae9d42b5208e1130ca4e0913/Social_capital_and_depression.pdf)]
-- Economic insecurity, greenlash and the demand for climate policies in Europe (with C. Keane) [[SSRN working paper](http://dx.doi.org/10.2139/ssrn.5111562 )] (*under revision*)
+- The political economy of in-kind versus cash redistribution in Europe (with S.M. Dunne) (*R&R, resubmitted*) [[Link to the paper](https://github.com/gubellom/gubellom.github.io/blob/243986a15d3c0efa08048bdb46ca6508d5781476/Cash_vs_in_kind_paper__Pre_revisions_.pdf)]
+- Inherited Social Trust and Depression Among Second-generation Immigrants (*R&R, resubmitted*) [[Link to the paper](https://github.com/gubellom/gubellom.github.io/blob/1f186c1b6d4d4a7eae9d42b5208e1130ca4e0913/Social_capital_and_depression.pdf)]
+- Economic insecurity, greenlash and the demand for climate policies in Europe (with C. Keane) [[SSRN working paper](http://dx.doi.org/10.2139/ssrn.5111562 )] (*submitted*)
+   Neither a Panacea Nor a Cheap Solution: A Universal Basic Income Analysis for Ireland (with T. Kakoulidou) (*Submitted. Draft available upon request*)
 
 
 ## Other ongoing work
 
 - Institutional trust, size of welfare state and preferences for tax progressivity (*draft available soon*)
-- Neither a Panacea Nor a Cheap Solution: A Universal Basic Income Analysis for Ireland (with T. Kakoulidou) (*draft available upon request*)
 - Desired Hours Worked Over the Business Cycle: Stylised Facts for European Countries (with [D. Tuda](https://sites.google.com/view/doratuda)) (*draft available soon*)
 
 
