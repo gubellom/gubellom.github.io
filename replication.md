@@ -23,7 +23,7 @@ title: "Michele Gubello"
 - The political economy of in-kind versus cash redistribution in Europe (with S.M. Dunne) (*R&R, resubmitted*) [[Link to the paper](https://github.com/gubellom/gubellom.github.io/blob/243986a15d3c0efa08048bdb46ca6508d5781476/Cash_vs_in_kind_paper__Pre_revisions_.pdf)]
 - Inherited Social Trust and Depression Among Second-generation Immigrants (*R&R, resubmitted*) [[Link to the paper](https://github.com/gubellom/gubellom.github.io/blob/1f186c1b6d4d4a7eae9d42b5208e1130ca4e0913/Social_capital_and_depression.pdf)]
 - Economic insecurity, greenlash and the demand for climate policies in Europe (with C. Keane) [[SSRN working paper](http://dx.doi.org/10.2139/ssrn.5111562 )] (*submitted*)
-   Neither a Panacea Nor a Cheap Solution: A Universal Basic Income Analysis for Ireland (with T. Kakoulidou) (*Submitted. Draft available upon request*)
+- Neither a Panacea Nor a Cheap Solution: A Universal Basic Income Analysis for Ireland (with T. Kakoulidou) (*Submitted. Draft available upon request*)
 
 
 ## Other ongoing work
