@@ -24,7 +24,7 @@ My research interests include topics at the intersection of public economics, en
 
 I have a PhD in Economics from University College Dublin, a joint MSc in Models and Methods of Quantitative Economics (specialised in Operational Research and Mathematical Optimisation) from University of Paris 1 Pantheon-Sorbonne and Ca’Foscari University of Venice, and a BA in Economics from Ca’Foscari University of Venice.
 
-On this website, I will mostly share the replication codes of my publicly available research.
+On this website, I will mostly share my research results.
 
 You can contact me at: michele [dot] gubello [at] esri [dot] ie
 
