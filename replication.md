@@ -13,7 +13,7 @@ title: "Michele Gubello"
     - Youtube presentation: [https://www.youtube.com/watch?v=iqLa8760Hmo](https://www.youtube.com/watch?v=iqLa8760Hmo)
 
 ### Academic publications
-- Inherited Social Trust and Depression Among Second-generation Immigrants [Kyklos, *forthcoming*] [Replication code. *forthcoming*]
+- Inherited Social Trust and Depression Among Second-generation Immigrants [[Kyklos](https://doi.org/10.1111/kykl.12453)] [[Replication code](https://osf.io/xadt9/)]
 - Social trust and the support for universal basic income, [European Journal of Political Economy](https://doi.org/10.1016/j.ejpoleco.2023.102495), 2024, [[Replication code](https://github.com/gubellom/replication-code-UBI-paper)]
 
 ### Working papers
