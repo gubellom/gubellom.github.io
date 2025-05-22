@@ -13,16 +13,12 @@ permalink: "/"
   </div>
   <div style="flex: 2; margin-left: 20px;">
     <p>
-I am a postdoctoral research fellow at the <a href="https://www.esri.ie/people/michele-gubello">Economic and Social Research Institute, Dublin</a>, a Visiting Research Fellow at Trinity College Dublin and a member of the <a href="https://euromod-web.jrc.ec.europa.eu/overview/country-by-country/detail?id=10">Irish EUROMOD Team</a>. I am also an external lecturer in Public Economics at Maynooth University. <br>
+I am a postdoctoral research fellow at the <a href="https://www.esri.ie/people/michele-gubello">Economic and Social Research Institute, Dublin</a>, a Visiting Research Fellow at Trinity College Dublin and a member of the <a href="https://euromod-web.jrc.ec.europa.eu/overview/country-by-country/detail?id=10">Irish EUROMOD Team</a>. In Spring 2025, I have been an external lecturer in Public Economics at Maynooth University. <br>
 <br>
-My research interests include topics at the intersection of public economics, environmental economics, political economy, and socioeconomics.
+My research focuses on the intersection of public economics, political economy, and socioeconomics. In my research I combine economic theory, econometric and microsimulation analysis to explore how institutions, public policy design, and social capital shape economic and political outcomes.
     </p>
   </div>
 </div>
-
-
-
-I have a PhD in Economics from University College Dublin, a joint MSc in Models and Methods of Quantitative Economics (specialised in Operational Research and Mathematical Optimisation) from University of Paris 1 Pantheon-Sorbonne and Ca’Foscari University of Venice, and a BA in Economics from Ca’Foscari University of Venice.
 
 On this website, I will mostly share my research results.
 
