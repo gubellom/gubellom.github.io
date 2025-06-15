@@ -27,7 +27,7 @@ International Tax and Public Finance*)
 
 
 ## Other ongoing work
-- Institutional trust, size of welfare state and preferences for tax progressivity (*draft available soon*)
+- Laffer curve, civic capital and preferences for tax progressivity (*draft available soon*)
 - Desired Hours Worked Over the Business Cycle: Stylised Facts for European Countries (with [D. Tuda](https://sites.google.com/view/doratuda)) (*draft available soon*)
 
 
