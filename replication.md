@@ -20,7 +20,7 @@ title: "Michele Gubello"
 ### Working papers
 
 - A Theory of Perverse Redistribution in Higher Education and Income Tax Progressivity in Europe (with [N.M. Strecker](https://sites.google.com/site/nmstrecker/)), 2024, [[LIS Working Paper Series. No. 889](https://www.lisdatacenter.org/wps/liswps/889.pdf)] [[CEPR Discussion paper DP19671](https://cepr.org/publications/dp19671)] [[Online Appendix](https://sites.google.com/site/nmstrecker/GS-OA?authuser=0)] 
-     - Previously circulated as: *Weakly Progressive: Disproportionate Higher Education Attendance and the Structure of Income Taxes*, 2022, [[UCD Centre for Economic Research Working Paper Series 2022,  WP22/26](https://hdl.handle.net/10419/296672)] 
+<!--     - Previously circulated as: *Weakly Progressive: Disproportionate Higher Education Attendance and the Structure of Income Taxes*, 2022, [[UCD Centre for Economic Research Working Paper Series 2022,  WP22/26](https://hdl.handle.net/10419/296672)] -->
 - Economic insecurity, greenlash and the demand for climate policies in Europe (with C. Keane) [[SSRN working paper](http://dx.doi.org/10.2139/ssrn.5111562 )] (*submitted*)
 - Neither a Panacea Nor a Cheap Solution: A Universal Basic Income Analysis for Ireland (with T. Kakoulidou) (*Draft available upon request*)
 
