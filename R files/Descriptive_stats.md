@@ -76,13 +76,17 @@ Voted last national election                             43919 1.38    0.64   1 
 
 ```
 
-
+We can also change the names of the labels if they are too long. For instance, henceforth I change the label ''Important that government is strong and ensures safety'' into
+''Government ensures safety'' and ''Voted last national election'' into ''Voted last election'':
 ```r
-# Replace rownames using the mapping
+# Generate new names for the variable we want to change
 new_names <- c("Important that government is strong and ensures safety" = "Government ensures safety",
                "Voted last national election" = "Voted last election")
 
+# Generate new dataframe to not overlap the previous one
 summary_new_names <- as.data.frame(summary_df_df)
+
+# Change row names using the new names assigned in new_names
 rownames(summary_new_names) <- ifelse(rownames(summary_df_df) %in% names(new_names),
                                   new_names[rownames(summary_df_df)],
                                   rownames(summary_df_df))
