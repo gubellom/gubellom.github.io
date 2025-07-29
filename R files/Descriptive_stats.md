@@ -15,7 +15,7 @@ Let's add an R code:
 
 
 Let's import the necessary packages.
-```
+</pre> ```
 pacman::p_load(
   haven,
   skimr,        # get overview of data
@@ -28,7 +28,7 @@ pacman::p_load(
   dplyr,
   summarytools
 )
-```
+``` </pre>
 
 
 Import your dataset and select a subsample with the function  ```select()```.  In my case, I import the ESS 8 and I use the ```.dta``` version of it, which is the version in STATA. 
