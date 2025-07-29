@@ -49,7 +49,7 @@ print(summary_stats)
  NA's   :468     NA's   :97      NA's   :1002
 ```
 
-A nicer way is to write the table in long format, where you decide which summary statistics to show. In this example, I include: the total number of valid (i.e., non-missing) observations, the mean, standard deviation, minimum, and maximum values.
+A better way to show the table is in long format, where you can choose which summary statistics to include. In this example, I show the total number of valid (non-missing) observations, the mean, standard deviation, minimum, and maximum values. I also round all values to two decimal places if they have decimals.
 
 ```r
 # Extract variable labels
