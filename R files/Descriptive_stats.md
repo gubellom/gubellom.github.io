@@ -24,9 +24,28 @@ pacman::p_load(
   janitor,      # adding totals and percents to tables
   scales,       # easily convert proportions to percents  
   flextable,    # converting tables to pretty images
-  dplyr
+  dplyr,
+  summarytools
 )
-``` 
+```
+
+
+Import your dataset and select a subsample with the function  ```select()```.  In my case, I import the ESS 8 and I use the ```.dta``` version of it, which is the version in STATA. 
+```
+df <- read_dta("C:/[directory]/ESS8e02_3.dta") 
+
+#Select a subsample of variables
+df_cleaned<-select(df, vote, polintr, ipstrgv)
+```
+
+A basic way to generate summary statistics is using the function ```summary()```:
+
+```
+#Basic  way (wide format)
+summary_stats <- summary(df_cleaned)
+print(summary_stats)
+```
+
 
  <!--   </p>
   </div>
