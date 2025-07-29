@@ -45,7 +45,7 @@ summary_stats <- summary(df_cleaned)
 print(summary_stats)
 ```
 
-```r
+```
      vote          polintr         ipstrgv     
  Min.   :1.000   Min.   :1.000   Min.   :1.000  
  1st Qu.:1.000   1st Qu.:2.000   1st Qu.:1.000  
@@ -75,7 +75,7 @@ summary_df_df[numeric_cols] <- lapply(summary_df_df[numeric_cols], function(x) {
 })
 ```
 
-```r
+```
                                                        N.Valid Mean Std.Dev Min Max
 How interested in politics                               44290 2.59    0.92   1   4
 Important that government is strong and ensures safety   43385 2.34    1.20   1   6
