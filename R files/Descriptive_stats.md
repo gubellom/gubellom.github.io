@@ -42,7 +42,6 @@ df_cleaned<-select(df, vote, polintr, ipstrgv)
 A basic way to generate summary statistics is using the function ```summary()```:
 
 ```
-#Basic  way (wide format)
 summary_stats <- summary(df_cleaned)
 print(summary_stats)
 ```
