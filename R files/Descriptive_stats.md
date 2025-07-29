@@ -57,6 +57,32 @@ print(summary_stats)
  NA's   :468     NA's   :97      NA's   :1002
 ```
 
+A nicer way is to write the table in the long format
+
+```
+# Extract variable labels
+var_labels <- sapply(df_cleaned, label)
+# Replace variable names with labels where available. Create a copy in which you change the names
+df_cleaned_var <-as.data.frame(df_cleaned)
+names(df_cleaned_var) <- ifelse(is.na(var_labels), names(df_cleaned_var), var_labels)
+# Transpose and make it long
+summary_df <- descr(df_cleaned_var, stats = c("n.valid", "mean", "sd", "min", "max"), transpose = TRUE)
+# Convert to data frame
+summary_df_df <- as.data.frame(summary_df)
+# Convert all columns except 'N. Valid' to numeric and round to 2 decimals
+numeric_cols <- setdiff(names(summary_df_df), "N. Valid")
+summary_df_df[numeric_cols] <- lapply(summary_df_df[numeric_cols], function(x) {
+  round(as.numeric(as.character(as.character(x))), 2)
+})
+```
+
+```
+                                                       N.Valid Mean Std.Dev Min Max
+How interested in politics                               44290 2.59    0.92   1   4
+Important that government is strong and ensures safety   43385 2.34    1.20   1   6
+Voted last national election                             43919 1.38    0.64   1   3
+
+```
 
  <!--   </p>
   </div>
