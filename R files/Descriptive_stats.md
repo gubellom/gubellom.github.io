@@ -31,7 +31,7 @@ pacman::p_load(
 ```
 
 Import your dataset and select a subsample with the function  ```select()```.  In my case, I import the ESS 8 and I use the ```.dta``` version of it, which is the version in STATA. 
-```
+```r
 df <- read_dta("C:/[directory]/ESS8e02_3.dta") 
 
 #Select a subsample of variables
@@ -40,12 +40,12 @@ df_cleaned<-select(df, vote, polintr, ipstrgv)
 
 A basic way to generate summary statistics is using the function ```summary()```:
 
-```
+```r
 summary_stats <- summary(df_cleaned)
 print(summary_stats)
 ```
 
-```
+```r
      vote          polintr         ipstrgv     
  Min.   :1.000   Min.   :1.000   Min.   :1.000  
  1st Qu.:1.000   1st Qu.:2.000   1st Qu.:1.000  
@@ -58,7 +58,7 @@ print(summary_stats)
 
 A nicer way is to write the table in the long format
 
-```
+```r
 # Extract variable labels
 var_labels <- sapply(df_cleaned, label)
 # Replace variable names with labels where available. Create a copy in which you change the names
@@ -75,7 +75,7 @@ summary_df_df[numeric_cols] <- lapply(summary_df_df[numeric_cols], function(x) {
 })
 ```
 
-```
+```r
                                                        N.Valid Mean Std.Dev Min Max
 How interested in politics                               44290 2.59    0.92   1   4
 Important that government is strong and ensures safety   43385 2.34    1.20   1   6
