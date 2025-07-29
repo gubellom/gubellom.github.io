@@ -83,6 +83,19 @@ Voted last national election                             43919 1.38    0.64   1 
 
 ```
 
+
+```r
+# Replace rownames using the mapping
+new_names <- c("Important that government is strong and ensures safety" = "Government ensures safety",
+               "Voted last national election" = "Voted last election")
+
+summary_new_names <- as.data.frame(summary_df_df)
+rownames(summary_new_names) <- ifelse(rownames(summary_df_df) %in% names(new_names),
+                                  new_names[rownames(summary_df_df)],
+                                  rownames(summary_df_df))
+print(summary_new_names)
+```
+
  <!--   </p>
   </div>
 </div>-->
