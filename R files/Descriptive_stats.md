@@ -46,6 +46,17 @@ summary_stats <- summary(df_cleaned)
 print(summary_stats)
 ```
 
+```
+     vote          polintr         ipstrgv     
+ Min.   :1.000   Min.   :1.000   Min.   :1.000  
+ 1st Qu.:1.000   1st Qu.:2.000   1st Qu.:1.000  
+ Median :1.000   Median :3.000   Median :2.000  
+ Mean   :1.382   Mean   :2.587   Mean   :2.342  
+ 3rd Qu.:2.000   3rd Qu.:3.000   3rd Qu.:3.000  
+ Max.   :3.000   Max.   :4.000   Max.   :6.000  
+ NA's   :468     NA's   :97      NA's   :1002
+```
+
 
  <!--   </p>
   </div>
