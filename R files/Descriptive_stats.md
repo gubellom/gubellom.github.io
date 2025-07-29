@@ -17,6 +17,7 @@ Let's add an R code:
 Let's import the necessary packages.
 ```
 pacman::p_load(
+  haven,
   skimr,        # get overview of data
   tidyverse,    # data management + ggplot2 graphics 
   gtsummary,    # summary statistics and tests
