@@ -71,7 +71,7 @@ summary_df_df <- as.data.frame(summary_df)
 # Convert all columns except 'N. Valid' to numeric and round to 2 decimals
 numeric_cols <- setdiff(names(summary_df_df), "N. Valid")
 summary_df_df[numeric_cols] <- lapply(summary_df_df[numeric_cols], function(x) {
-  round(as.numeric(as.character(as.character(x))), 2)
+  round(as.numeric(as.character(x)), 2)
 })
 ```
 
