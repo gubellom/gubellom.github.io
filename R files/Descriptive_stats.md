@@ -18,13 +18,6 @@ Let's import the necessary packages.
 ```r
 pacman::p_load(
   haven,
-  skimr,        # get overview of data
-  tidyverse,    # data management + ggplot2 graphics 
-  gtsummary,    # summary statistics and tests
-  rstatix,      # summary statistics and statistical tests
-  janitor,      # adding totals and percents to tables
-  scales,       # easily convert proportions to percents  
-  flextable,    # converting tables to pretty images
   dplyr,
   summarytools
 )
