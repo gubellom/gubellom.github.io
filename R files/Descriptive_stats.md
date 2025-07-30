@@ -38,7 +38,10 @@ A basic way to generate summary statistics is using the function ```summary()```
 summary_stats <- summary(df_cleaned)
 print(summary_stats)
 ```
-[Output]: 
+
+<details>
+  <summary>[Output]</summary>
+
 ```
      vote          polintr         ipstrgv     
  Min.   :1.000   Min.   :1.000   Min.   :1.000  
@@ -49,7 +52,8 @@ print(summary_stats)
  Max.   :3.000   Max.   :4.000   Max.   :6.000  
  NA's   :468     NA's   :97      NA's   :1002
 ```
-
+<details>
+  
 A better way to display the table is in long format, which allows you to select which summary statistics to include. In this example, I show the total number of valid (non-missing) observations, the mean, standard deviation, minimum, and maximum values. I also round all values to two decimal places if they have decimals.
 
 ```r
