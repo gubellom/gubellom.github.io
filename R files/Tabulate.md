@@ -70,8 +70,10 @@ stat_table_final <- rbind(stat_table, total_row)
 print(stat_table_final)
 ```
 
-```
+<details>
+  <summary>[Output]</summary>
 
+  <pre>
                Response Frequency Percentage Cumulative
 1       Very interested      5415      12.20      12.20
 2      Quite interested     15539      35.01      47.21
@@ -82,7 +84,8 @@ print(stat_table_final)
 7             No answer         4       0.01     100.00
 8                 Total     44387     100.00         NA
 
-```
+<pre>
+<details>
 
 
 
