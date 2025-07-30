@@ -109,7 +109,9 @@ writexl::write_xlsx(summary_df_export, "summary_table.xlsx")
 
 #Export in Latex
 latex_code <- xtable(summary_df_export)
-print(latex_code, type = "latex")
+sink("summary_table.tex") 
+print(latex_code, type = "latex", include.rownames = FALSE)  
+sink()  
 
 ```
 
