@@ -41,17 +41,19 @@ print(summary_stats)
 
 <details>
   <summary>[Output]</summary>
-```
+
+  <pre>
      vote          polintr         ipstrgv     
- Min.   :1.000   Min.   :1.000   Min.   :1.000  
- 1st Qu.:1.000   1st Qu.:2.000   1st Qu.:1.000  
- Median :1.000   Median :3.000   Median :2.000  
- Mean   :1.382   Mean   :2.587   Mean   :2.342  
- 3rd Qu.:2.000   3rd Qu.:3.000   3rd Qu.:3.000  
- Max.   :3.000   Max.   :4.000   Max.   :6.000  
- NA's   :468     NA's   :97      NA's   :1002
-```
-<details>
+   Min.   :1.000   Min.   :1.000   Min.   :1.000  
+   1st Qu.:1.000   1st Qu.:2.000   1st Qu.:1.000  
+   Median :1.000   Median :3.000   Median :2.000  
+   Mean   :1.382   Mean   :2.587   Mean   :2.342  
+   3rd Qu.:2.000   3rd Qu.:3.000   3rd Qu.:3.000  
+   Max.   :3.000   Max.   :4.000   Max.   :6.000  
+   NA's   :468     NA's   :97      NA's   :1002
+  </pre>
+</details>
+
 
   
 A better way to display the table is in long format, which allows you to select which summary statistics to include. In this example, I show the total number of valid (non-missing) observations, the mean, standard deviation, minimum, and maximum values. I also round all values to two decimal places if they have decimals.
