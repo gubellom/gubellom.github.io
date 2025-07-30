@@ -55,7 +55,10 @@ A better way to show the table is in long format, where you can choose which sum
 
 ```r
 # Extract variable labels
-var_labels <- sapply(df_cleaned, label)
+var_labels <- sapply(df_cleaned, function(x) {
+  lbl <- attr(x, "label")
+  if (is.null(lbl)) NA else lbl
+})
 # Replace variable names with labels where available. Create a copy in which you change the names
 df_cleaned_var <-as.data.frame(df_cleaned)
 names(df_cleaned_var) <- ifelse(is.na(var_labels), names(df_cleaned_var), var_labels)
