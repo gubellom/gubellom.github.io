@@ -115,10 +115,10 @@ print(summary_new_labels)
 
   <pre>
 ```
-                                                       N.Valid Mean Std.Dev Min Max
-How interested in politics                               44290 2.59    0.92   1   4
-Important that government is strong and ensures safety   43385 2.34    1.20   1   6
-Voted last national election                             43919 1.38    0.64   1   3
+                           N.Valid Mean Std.Dev Min Max
+How interested in politics   44290 2.59    0.92   1   4
+Government ensures safety    43385 2.34    1.20   1   6
+Voted last election          43919 1.38    0.64   1   3
 
 ```
 </pre>
