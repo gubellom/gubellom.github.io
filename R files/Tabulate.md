@@ -14,6 +14,31 @@ permalink: "/"
     
 # How To Replicate STATA Tabulate Command?
 
+A particularly useful command in STATA is `tabulate`, which is commonly used to create frequency tables or cross-tabulations between two categorical variables. It provides a simple way to understand how values are distributed across categories, and is especially helpful in exploring relationships in survey or categorical data.
+
+In R, there is no direct equivalent to `tabulate`, but we can replicate its functionality using a combination of base R functions. Below is an example of how to generate a STATA-style frequency table for the variable `polintr` (interest in politics) using R.
+
+Let's start by importing the necessary packages.
+
+```r
+pacman::p_load(
+  haven,     # Import Stata Dataset
+  dplyr,     
+  writexl,  #Export in Excel
+  tibble,   # To convert row names to columns
+  xtable    #Export in Latex
+)
+```
+
+I import the ESS 8 dataset, which you can find in the <a href="https://ess.sikt.no/en/">ESS website</a>.
+
+```r
+df <- read_dta("C:/[directory]/ESS8e02_3.dta") 
+
+```
+
+```r
+# Generate Tabulate for Variable "polintr"
 
 ```r
 
