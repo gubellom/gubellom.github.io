@@ -41,7 +41,6 @@ print(summary_stats)
 
 <details>
   <summary>[Output]</summary>
-
 ```
      vote          polintr         ipstrgv     
  Min.   :1.000   Min.   :1.000   Min.   :1.000  
