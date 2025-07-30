@@ -25,7 +25,7 @@ pacman::p_load(
 )
 ```
 
-Import your dataset and select a subsample with the function  ```select()```.  In my case, I import the ESS 8 and I use the ```.dta``` version of it, which is the version in STATA. You can find the publicly available data in the [ESS webpage][https://ess.sikt.no/en/]
+Import your dataset and select a subsample with the function  ```select()```.  In my case, I import the ESS 8 and I use the ```.dta``` version of it, which is the version in STATA. You can find the publicly available data in the <a href="https://ess.sikt.no/en/">ESS website</a>.
 ```r
 df <- read_dta("C:/[directory]/ESS8e02_3.dta") 
 
