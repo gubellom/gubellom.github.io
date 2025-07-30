@@ -37,8 +37,6 @@ df <- read_dta("C:/[directory]/ESS8e02_3.dta")
 
 ```
 
-```r
-# Generate Tabulate for Variable "polintr"
 
 ```r
 
