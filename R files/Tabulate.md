@@ -71,3 +71,18 @@ print(stat_table_final)
 
 
 ```
+
+               Response Frequency Percentage Cumulative
+1       Very interested      5415      12.20      12.20
+2      Quite interested     15539      35.01      47.21
+3     Hardly interested     15248      34.35      81.56
+4 Not at all interested      8088      18.22      99.78
+5               Refusal        36       0.08      99.86
+6            Don't know        57       0.13      99.99
+7             No answer         4       0.01     100.00
+8                 Total     44387     100.00         NA
+
+```
+
+
+```
