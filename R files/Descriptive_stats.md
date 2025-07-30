@@ -38,7 +38,7 @@ A basic way to generate summary statistics is using the function ```summary()```
 summary_stats <- summary(df_cleaned)
 print(summary_stats)
 ```
- <!-- 
+[Output]: 
 ```
      vote          polintr         ipstrgv     
  Min.   :1.000   Min.   :1.000   Min.   :1.000  
@@ -49,7 +49,7 @@ print(summary_stats)
  Max.   :3.000   Max.   :4.000   Max.   :6.000  
  NA's   :468     NA's   :97      NA's   :1002
 ```
---->
+
 A better way to display the table is in long format, which allows you to select which summary statistics to include. In this example, I show the total number of valid (non-missing) observations, the mean, standard deviation, minimum, and maximum values. I also round all values to two decimal places if they have decimals.
 
 ```r
@@ -71,7 +71,7 @@ summary_df_df[numeric_cols] <- lapply(summary_df_df[numeric_cols], function(x) {
 })
 ```
 
- <!-- 
+[Output]: 
 ```
                                                        N.Valid Mean Std.Dev Min Max
 How interested in politics                               44290 2.59    0.92   1   4
@@ -79,7 +79,7 @@ Important that government is strong and ensures safety   43385 2.34    1.20   1 
 Voted last national election                             43919 1.38    0.64   1   3
 
 ```
---->
+
 
 We can also change the names of the labels if they are too long. For instance, I change the label ''Important that government is strong and ensures safety'' into
 ''Government ensures safety'' and ''Voted last national election'' into ''Voted last election'':
