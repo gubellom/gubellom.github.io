@@ -17,11 +17,12 @@ This page presents a quick way to replicate a STATA-style summary statistics tab
 
 ```r
 pacman::p_load(
-  haven,     # Import Stata Dataset
-  dplyr,     
-  writexl,  #Export in Excel
-  tibble,   # To convert row names to columns
-  xtable    #Export in Latex
+  haven,     
+  dplyr,
+  summarytools,    
+  writexl,  
+  tibble,   
+  xtable    
 )
 ```
 Import your dataset and select a subsample using the ```select()``` function. In this example, I import ESS Round 8 in ```.dta``` format, which is the STATA version. You can find the publicly available data on the <a href="https://ess.sikt.no/en/">ESS website</a>.
@@ -108,6 +109,21 @@ rownames(summary_new_labels) <- ifelse(rownames(summary_df_df) %in% names(new_la
                                   rownames(summary_df_df))
 print(summary_new_labels)
 ```
+
+<details>
+  <summary>[Output]</summary>
+
+  <pre>
+```
+                                                       N.Valid Mean Std.Dev Min Max
+How interested in politics                               44290 2.59    0.92   1   4
+Important that government is strong and ensures safety   43385 2.34    1.20   1   6
+Voted last national election                             43919 1.38    0.64   1   3
+
+```
+</pre>
+</details>
+
 
 Finally, we can export the results in LaTeX or Excel by simply convert the "row names" into a column. Henceforth, I will use the data frame "summary_df_df":
 ```r
