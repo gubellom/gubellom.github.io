@@ -11,9 +11,9 @@ permalink: "/"
   <div style="flex: 2; margin-left: 20px;">
     <p> -->
     
-# How to create a STATA-style summary table and export it in Excel or LaTeX?
+# How to create a STATA-style summary statistics table and export it in Excel or LaTeX?
 
-This page presents a quick code to replicate a STATA-style summary table in R. STATA's ```summarize``` command with the detail option provides key descriptive statistics such as mean, standard deviation, min, max, and total number of observations. Using R, we can achieve a similar output in R. Below is a minimal working example that summarises key variables in a dataset in a table that closely resembles STATA's output.
+This page presents a quick code to replicate a STATA-style summary statistics table in R. STATA's ```summarize``` command with the detail option provides key descriptive statistics such as mean, standard deviation, min, max, and total number of observations. Using R, we can achieve a similar output in R. Below is a minimal working example that summarises key variables in a dataset in a table that closely resembles STATA's output.
 Let's import the necessary packages.
 ```r
 pacman::p_load(
