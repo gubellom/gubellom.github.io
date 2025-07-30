@@ -17,9 +17,11 @@ Let's add an R code:
 Let's import the necessary packages.
 ```r
 pacman::p_load(
-  haven,
-  dplyr,
-  summarytools
+  haven,     # Import Stata Dataset
+  dplyr,     
+  writexl,  #Export in Excel
+  tibble,   # To convert row names to columns
+  xtable    #Export in Latex
 )
 ```
 
@@ -91,6 +93,22 @@ rownames(summary_new_names) <- ifelse(rownames(summary_df_df) %in% names(new_nam
                                   new_names[rownames(summary_df_df)],
                                   rownames(summary_df_df))
 print(summary_new_names)
+```
+
+Finally, we can export the results in LaTeX or Excel by simply convert the "row names" into a column:
+
+```r
+
+# Move rownames into a column called "Variable"
+summary_df_export <- rownames_to_column(summary_df_df, var = "Variable")
+
+#Export in Excel
+writexl::write_xlsx(summary_df_export, "summary_table.xlsx")
+
+#Export in Latex
+latex_code <- xtable(summary_df_export)
+print(latex_code, type = "latex")
+
 ```
 
  <!--   </p>
