@@ -11,10 +11,10 @@ permalink: "/"
   <div style="flex: 2; margin-left: 20px;">
     <p> -->
     
-# How to create a STATA-style summary statistics table and export it in Excel or LaTeX?
+# How to Create a STATA-Style Summary Statistics Table and Export It to Excel or LaTeX
 
-This page presents a quick code to replicate a STATA-style summary statistics table in R. STATA's ```summarize``` command with the detail option provides key descriptive statistics such as mean, standard deviation, min, max, and total number of observations. Using R, we can achieve a similar output in R. Below is a minimal working example that summarises key variables in a dataset in a table that closely resembles STATA's output.
-Let's import the necessary packages.
+This page presents a quick way to replicate a STATA-style summary statistics table in R. STATA's ```summarize``` command with the ```detail``` option provides key descriptive statistics such as the mean, standard deviation, minimum, maximum, and number of observations. Using R, we can achieve a similar output. Below is a minimal working example that summarizes key variables in a dataset in a format that closely resembles STATA's output. Let's start by importing the necessary packages.
+
 ```r
 pacman::p_load(
   haven,     # Import Stata Dataset
@@ -24,8 +24,7 @@ pacman::p_load(
   xtable    #Export in Latex
 )
 ```
-
-Import your dataset and select a subsample with the function  ```select()```.  In my case, I import the ESS 8 and I use the ```.dta``` version of it, which is the version in STATA. You can find the publicly available data in the <a href="https://ess.sikt.no/en/">ESS website</a>.
+Import your dataset and select a subsample using the ```select()``` function. In this example, I import ESS Round 8 in ```.dta``` format, which is the STATA version. You can find the publicly available data on the <a href="https://ess.sikt.no/en/">ESS website</a>.
 ```r
 df <- read_dta("C:/[directory]/ESS8e02_3.dta") 
 
@@ -33,7 +32,7 @@ df <- read_dta("C:/[directory]/ESS8e02_3.dta")
 df_cleaned<-select(df, vote, polintr, ipstrgv)
 ```
 
-A basic way to generate summary statistics is using the function ```summary()```:
+A basic way to generate summary statistics is using the function ```summary()```, which provide summary statistics in a wide format if more than one variable is considered:
 
 ```r
 summary_stats <- summary(df_cleaned)
@@ -51,7 +50,7 @@ print(summary_stats)
  NA's   :468     NA's   :97      NA's   :1002
 ```
 --->
-A better way to show the table is in long format, where you can choose which summary statistics to include. In this example, I show the total number of valid (non-missing) observations, the mean, standard deviation, minimum, and maximum values. I also round all values to two decimal places if they have decimals.
+A better way to display the table is in long format, which allows you to select which summary statistics to include. In this example, I show the total number of valid (non-missing) observations, the mean, standard deviation, minimum, and maximum values. I also round all values to two decimal places if they have decimals.
 
 ```r
 # Extract variable labels
@@ -98,7 +97,6 @@ print(summary_new_names)
 ```
 
 Finally, we can export the results in LaTeX or Excel by simply convert the "row names" into a column:
-
 ```r
 
 # Move rownames into a column called "Variable"
