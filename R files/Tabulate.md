@@ -68,7 +68,7 @@ total_row <- data.frame(
 stat_table_final <- rbind(stat_table, total_row)
 
 print(stat_table_final)
-
+```
 
 ```
 
@@ -85,4 +85,4 @@ print(stat_table_final)
 ```
 
 
-```
+
