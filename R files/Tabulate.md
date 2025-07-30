@@ -23,10 +23,7 @@ Let's start by importing the necessary packages.
 ```r
 pacman::p_load(
   haven,     # Import Stata Dataset
-  dplyr,     
-  writexl,  #Export in Excel
-  tibble,   # To convert row names to columns
-  xtable    #Export in Latex
+  dplyr
 )
 ```
 
