@@ -85,20 +85,20 @@ We can also change the names of the labels if they are too long. For instance, I
 ''Government ensures safety'' and ''Voted last national election'' into ''Voted last election'':
 ```r
 # Generate new names for the variable we want to change
-new_names <- c("Important that government is strong and ensures safety" = "Government ensures safety",
+new_labels <- c("Important that government is strong and ensures safety" = "Government ensures safety",
                "Voted last national election" = "Voted last election")
 
 # Generate new dataframe to not overlap the previous one
-summary_new_names <- as.data.frame(summary_df_df)
+summary_new_labels <- as.data.frame(summary_df_df)
 
 # Change row names using the new names assigned in new_names
-rownames(summary_new_names) <- ifelse(rownames(summary_df_df) %in% names(new_names),
-                                  new_names[rownames(summary_df_df)],
+rownames(summary_new_labels) <- ifelse(rownames(summary_df_df) %in% names(new_labels),
+                                  new_labels[rownames(summary_df_df)],
                                   rownames(summary_df_df))
-print(summary_new_names)
+print(summary_new_labels)
 ```
 
-Finally, we can export the results in LaTeX or Excel by simply convert the "row names" into a column:
+Finally, we can export the results in LaTeX or Excel by simply convert the "row names" into a column. Henceforth, I will use the data frame "summary_df_df":
 ```r
 
 # Move rownames into a column called "Variable"
