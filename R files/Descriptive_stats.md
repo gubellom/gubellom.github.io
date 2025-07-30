@@ -77,7 +77,10 @@ summary_df_df[numeric_cols] <- lapply(summary_df_df[numeric_cols], function(x) {
 })
 ```
 
-[Output]: 
+<details>
+  <summary>[Output]</summary>
+
+  <pre>
 ```
                                                        N.Valid Mean Std.Dev Min Max
 How interested in politics                               44290 2.59    0.92   1   4
@@ -85,6 +88,8 @@ Important that government is strong and ensures safety   43385 2.34    1.20   1 
 Voted last national election                             43919 1.38    0.64   1   3
 
 ```
+</pre>
+</details>
 
 
 We can also change the names of the labels if they are too long. For instance, I change the label ''Important that government is strong and ensures safety'' into
