@@ -76,7 +76,7 @@ Voted last national election                             43919 1.38    0.64   1 
 
 ```
 
-We can also change the names of the labels if they are too long. For instance, henceforth I change the label ''Important that government is strong and ensures safety'' into
+We can also change the names of the labels if they are too long. For instance, I change the label ''Important that government is strong and ensures safety'' into
 ''Government ensures safety'' and ''Voted last national election'' into ''Voted last election'':
 ```r
 # Generate new names for the variable we want to change
