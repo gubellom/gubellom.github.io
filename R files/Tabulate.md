@@ -16,7 +16,8 @@ permalink: "/"
 
 A particularly useful command in STATA is `tabulate`, which is commonly used to create frequency tables or cross-tabulations between two categorical variables. It provides a simple way to understand how values are distributed across categories, and is especially helpful in exploring relationships in survey or categorical data.
 
-In R, there is no direct equivalent to `tabulate`, but we can replicate its functionality using a combination of base R functions. Below is an example of how to generate a STATA-style frequency table for the variable `polintr` (interest in politics) using R.
+## One-way tabulate
+In R, we can replicate its functionality using a combination of different R functions. Below is an example of how to generate a STATA-style frequency table for the variable `polintr` (interest in politics) using R.
 
 Let's start by importing the necessary packages.
 
@@ -90,6 +91,8 @@ print(stat_table_final)
 
 </pre>
 </details>
+
+## Two-way tabulate
 
 
 
