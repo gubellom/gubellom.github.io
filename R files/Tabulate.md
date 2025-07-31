@@ -67,6 +67,8 @@ total_row <- data.frame(
 
 stat_table_final <- rbind(stat_table, total_row)
 
+# Print tabel with variable label
+attr(df$polintr, "label")
 print(stat_table_final)
 ```
 
@@ -74,7 +76,8 @@ print(stat_table_final)
   <summary>[Output]</summary>
 
   <pre>
-
+[1] "How interested in politics"
+    
                Response Frequency Percentage Cumulative
 1       Very interested      5415      12.20      12.20
 2      Quite interested     15539      35.01      47.21
