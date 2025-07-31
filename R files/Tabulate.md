@@ -150,6 +150,22 @@ rm(df_oneway)
 
 ```
 
+<details>
+  <summary>[Output]</summary>
+
+  <pre>
+[1] "How interested in politics"
+    
+               Response Frequency Percentage Cumulative
+1       Very interested      5414      12.23      12.23
+2      Quite interested     15535      35.08      47.31
+3     Hardly interested     15245      34.43      81.74
+4 Not at all interested      8087      18.26     100.00
+5                 Total     44281     100.00         NA
+
+</pre>
+</details>
+
 ## Two-way tabulate
 
 Without missing values:
