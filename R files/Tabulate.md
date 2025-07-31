@@ -12,7 +12,7 @@ permalink: "/"
     <p> -->
 
     
-# How To Replicate STATA Tabulate Command?
+# How To Replicate STATA Tabulate Command
 
 A particularly useful command in STATA is `tabulate`, which is commonly used to create frequency tables or cross-tabulations between two categorical variables. It provides a simple way to understand how values are distributed across categories, and is especially helpful in exploring relationships in survey or categorical data.
 
