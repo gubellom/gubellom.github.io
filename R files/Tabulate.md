@@ -99,22 +99,22 @@ Without missing values:
 ```r
 
 #Drop observations that are missings in both variables
-df_cleaned<-select(df, gndr, polintr)
-df_cleaned <- df_cleaned[complete.cases(df_cleaned), ]
+df_twoway<-select(df, gndr, polintr)
+df_twoway <- df_twoway[complete.cases(df_twoway), ]
 
 # Consider labels
-df_cleaned$polintr_label<-as_factor(df_cleaned$polintr)
-df_cleaned$gndr_label<-as_factor(df_cleaned$gndr)
+df_twoway$polintr_label<-as_factor(df_twoway$polintr)
+df_twoway$gndr_label<-as_factor(df_twoway$gndr)
 
 # Removes unused factor levels (levels with 0 observations)
-df_cleaned <- df_cleaned %>%
+df_twoway <- df_twoway %>%
   mutate(
     polintr_label = droplevels(polintr_label),
     gndr_label = droplevels(gndr_label)
   )
 
 # Generate the 2-way tabulate
-tab_2w <- table(df_cleaned$polintr_label, df_cleaned$gndr_label, useNA = c("no"))
+tab_2w <- table(df_twoway$polintr_label, df_twoway$gndr_label, useNA = c("no"))
 print(tab_2w)
 addmargins(tab_2w)
 
