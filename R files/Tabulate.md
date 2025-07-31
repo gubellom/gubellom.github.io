@@ -92,6 +92,64 @@ print(stat_table_final)
 </pre>
 </details>
 
+
+Removing the missing values
+
+
+```r
+
+#Drop observations that are missings in both variables
+df_oneway<-select(df, gndr, polintr)
+df_oneway <- df_oneway[complete.cases(df_oneway), ]
+
+# Consider labels
+df_oneway$polintr_label<-as_factor(df_oneway$polintr)
+df_oneway$gndr_label<-as_factor(df_oneway$gndr)
+
+# Removes unused factor levels (levels with 0 observations)
+df_oneway <- df_oneway %>%
+  mutate(
+    polintr_label = droplevels(polintr_label),
+    gndr_label = droplevels(gndr_label)
+  )
+
+
+# Generate Tabulate for Variable "polintr"
+
+labels <- attr(df_oneway$polintr, "labels")
+response_labels <- names(labels)
+polintr_factor <- factor(as_factor(df_oneway$polintr))
+freq_table <- table(polintr_factor, useNA = "ifany")
+percent_table <- round(prop.table(freq_table) * 100, 2)
+
+# Cumulative percentage
+cum_percent <- round(cumsum(percent_table), 2)
+
+# Combine into a data frame
+stat_table <- data.frame(
+  Response = names(freq_table),
+  Frequency = as.vector(freq_table),
+  Percentage = as.vector(percent_table),
+  Cumulative = as.vector(cum_percent)
+)
+
+# Add a final row for total
+total_row <- data.frame(
+  Response = "Total",
+  Frequency = sum(stat_table$Frequency),
+  Percentage = sum(stat_table$Percentage),
+  Cumulative = NA_real_,  # Numeric NA to match column type
+  stringsAsFactors = FALSE
+)
+
+stat_table_final <- rbind(stat_table, total_row)
+
+attr(df_oneway$polintr, "label")
+print(stat_table_final)
+rm(df_oneway)
+
+```
+
 ## Two-way tabulate
 
 Without missing values:
