@@ -94,6 +94,8 @@ print(stat_table_final)
 
 ## Two-way tabulate
 
+Without missing values:
+
 ```r
 
 #Drop observations that are missings in both variables
