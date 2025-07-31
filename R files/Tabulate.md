@@ -94,7 +94,43 @@ print(stat_table_final)
 
 ## Two-way tabulate
 
+```r
 
+#Drop observations that are missings in both variables
+df_cleaned<-select(df, gndr, polintr)
+df_cleaned <- df_cleaned[complete.cases(df_cleaned), ]
+
+# Consider labels
+df_cleaned$polintr_label<-as_factor(df_cleaned$polintr)
+df_cleaned$gndr_label<-as_factor(df_cleaned$gndr)
+
+# Removes unused factor levels (levels with 0 observations)
+df_cleaned <- df_cleaned %>%
+  mutate(
+    polintr_label = droplevels(polintr_label),
+    gndr_label = droplevels(gndr_label)
+  )
+
+# Generate the 2-way tabulate
+tab_2w <- table(df_cleaned$polintr_label, df_cleaned$gndr_label, useNA = c("no"))
+print(tab_2w)
+addmargins(tab_2w)
+
+```
+
+<details>
+  <summary>[Output]</summary>
+
+  <pre>
+                       Male Female   Sum
+  Very interested        3323   2091  5414
+  Quite interested       7926   7609 15535
+  Hardly interested      6557   8688 15245
+  Not at all interested  3184   4903  8087
+  Sum                   20990  23291 44281
+
+</pre>
+</details>
 
  <!--   </p>
   </div>
