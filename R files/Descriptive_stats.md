@@ -25,10 +25,8 @@ pacman::p_load(
   xtable    
 )
 ```
-Import your dataset and select a subsample using the ```select()``` function. In this example, I import ESS Round 8 in ```.dta``` format, which is the STATA version. You can find the publicly available data on the <a href="https://ess.sikt.no/en/">ESS website</a>.
+Import your dataset and select a subsample using the ```select()``` function. 
 ```r
-df <- read_dta("C:/[directory]/ESS8e02_3.dta") 
-
 #Select a subsample of variables
 df_cleaned<-select(df, vote, polintr, ipstrgv)
 ```
