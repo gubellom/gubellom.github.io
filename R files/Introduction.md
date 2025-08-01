@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Michele Gubello"
-permalink: "/Introduction"
+permalink: "/"
 ---
 
 
