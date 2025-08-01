@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Michele Gubello"
-permalink: "/"
+permalink: "/tabulate/"
 ---
 
 <!-- <div style="display: flex; align-items: center;">
