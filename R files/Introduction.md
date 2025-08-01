@@ -24,6 +24,6 @@ df <- read_dta("C:/[directory]/ESS8e02_3.dta")
 
 This is an ongoing project; please check back periodically for new content or updates.
 
-1) [How to Create a STATA-Style Summary Statistics Table and Export It to Excel or LaTeX](https://gubellom.github.io/descriptive_stats/)
+1) [How to create a STATA-style summary statistics table and export it to Excel or LaTeX](https://gubellom.github.io/descriptive_stats/)
    
-2) [How To Replicate STATA Tabulate Command](https://gubellom.github.io/tabulate/)
+2) [How to Replicate STATA tabulate command: one-way and two-way tables](https://gubellom.github.io/tabulate/)
