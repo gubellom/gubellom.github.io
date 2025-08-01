@@ -1,10 +1,9 @@
 ---
 permalink:  "/michelegubello_replication/"
 layout: page
-title: "Michele Gubello"
+title: "My research"
 ---
 
-# My research
 
 ### Peer-reviewed policy reports  
 - Drivers of Income Inequality in Ireland and Northern Ireland (with K. Doorley and D. Tuda), [ESRI research series](https://www.esri.ie/publications/drivers-of-income-inequality-in-ireland-and-northern-ireland), 2024
