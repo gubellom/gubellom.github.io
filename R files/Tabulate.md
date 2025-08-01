@@ -93,8 +93,7 @@ print(stat_table_final)
 </details>
 
 
-Removing the missing values
-
+To remove the missing values or the answers such as *Refusal*, *Don't know* and *No answer*, I filter a subsample of data with only the *gndr* and *polintr*. I name the new dataset as *df_oneway*:
 
 ```r
 
@@ -113,7 +112,11 @@ df_oneway <- df_oneway %>%
     gndr_label = droplevels(gndr_label)
   )
 
+```
 
+Then, I replicate the code using the dataset ```df_oneway```:
+
+```r
 # Generate Tabulate for Variable "polintr"
 
 labels <- attr(df_oneway$polintr, "labels")
