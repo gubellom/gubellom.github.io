@@ -93,7 +93,8 @@ print(stat_table_final)
 </details>
 
 
-To remove the missing values or the answers such as *Refusal*, *Don't know* and *No answer*, I filter a subsample of data with only the *gndr* and *polintr*. I name the new dataset as *df_oneway*:
+To remove missing values and responses such as *Refusal*, *Don't know*, and *No answer*, I filter a subsample of the data to include only the *gndr* and *polintr* variables. I name the resulting dataset *df_oneway*.
+
 
 ```r
 
@@ -114,7 +115,7 @@ df_oneway <- df_oneway %>%
 
 ```
 
-Then, I replicate the code using the dataset ```df_oneway```:
+Then, I replicate the ```tabulate``` code using the dataset ```df_oneway```:
 
 ```r
 # Generate Tabulate for Variable "polintr"
