@@ -1,7 +1,8 @@
 ---
-layout: page
+
+permalink: "/michelegubello_Introduction/"
 title: "Michele Gubello"
-permalink: "/michelegubello_Introduction_R/"
+layout: page
 ---
 
 
