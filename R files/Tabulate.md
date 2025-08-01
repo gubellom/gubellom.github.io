@@ -27,14 +27,7 @@ pacman::p_load(
   dplyr
 )
 ```
-
-I import the ESS 8 dataset, which you can find in the <a href="https://ess.sikt.no/en/">ESS website</a>.
-
-```r
-df <- read_dta("C:/[directory]/ESS8e02_3.dta") 
-
-```
-
+To generate a Tabulate command that includes all the values:
 
 ```r
 
