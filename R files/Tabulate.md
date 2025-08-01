@@ -55,7 +55,7 @@ total_row <- data.frame(
   Response = "Total",
   Frequency = sum(stat_table$Frequency),
   Percentage = sum(stat_table$Percentage),
-  Cumulative = NA_real_,  # Numeric NA to match column type
+  Cumulative = NA_real_, 
   stringsAsFactors = FALSE
 )
 
@@ -135,7 +135,7 @@ total_row <- data.frame(
   Response = "Total",
   Frequency = sum(stat_table$Frequency),
   Percentage = sum(stat_table$Percentage),
-  Cumulative = NA_real_,  # Numeric NA to match column type
+  Cumulative = NA_real_,  
   stringsAsFactors = FALSE
 )
 
