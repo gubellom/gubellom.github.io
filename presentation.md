@@ -26,9 +26,9 @@ On this website, I will mostly share my research results.
 You can contact me at: michele [dot] gubello [at] esri [dot] ie
 
 
-| <a href="https://gubellom.github.io/michelegubello_replication">RESEARCH</a>  | <a href="https://gubellom.github.io/michelegubello_cv/">CV</a> | <a href="https://shorturl.at/61bwb">GOOGLE SCHOLAR</a> |
+| <a href="https://gubellom.github.io/michelegubello_replication">RESEARCH</a> | <a href="https://shorturl.at/61bwb">GOOGLE SCHOLAR</a> |
 
-
+ <!-- | <a href="https://gubellom.github.io/michelegubello_cv/">CV</a> -->
 
 
 
