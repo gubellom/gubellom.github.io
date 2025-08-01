@@ -1,7 +1,7 @@
 ---
 
 permalink: "/michelegubello_Introduction/"
-title: "Michele Gubello"
+title: "R for data analysis"
 layout: page
 ---
 
@@ -16,4 +16,5 @@ The goal is to share small code snippets that can help you generate various outp
 This is an ongoing project, so check back occasionally for new content or refinements.
 
 1) [How to Create a STATA-Style Summary Statistics Table and Export It to Excel or LaTeX](https://github.com/gubellom/gubellom.github.io/blob/master/R%20files/Descriptive_stats.md)
+   
 2) [How To Replicate STATA Tabulate Command](https://github.com/gubellom/gubellom.github.io/blob/master/R%20files/Tabulate.md)
