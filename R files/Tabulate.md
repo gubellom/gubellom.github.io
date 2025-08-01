@@ -171,8 +171,8 @@ rm(df_oneway)
 </details>
 
 ## Two-way tabulate
+A **two-way tabulation** is a statistical tool used to display the relationship between two categorical variables. Each cell in the table represents the number of observations (or frequency) that fall into the combination of a level from each variable. For example, if we are analysing the variables *gender* (`gndr`) and *interest in politics* (`polintr`), a two-way tabulation will show how many individuals of each gender report different levels of political interest. Before creating such a table, I remove or exclude **missing values** or responses such as *Refusal*, *Don't know*, and *No answer*.
 
-Without missing values:
 
 ```r
 
