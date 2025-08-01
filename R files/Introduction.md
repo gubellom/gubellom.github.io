@@ -13,7 +13,15 @@ This page is an introduction to R for users who have some basic experience with 
 
 The goal is to share small code snippets that can help you generate various outputs quickly and easily. In R, there are often many different ways to achieve the same result. The scripts provided here may not always be the most efficient, but they aim to be clear and practical. I’ll continue to improve and update them whenever I have some free time.
 
-This is an ongoing project, so check back occasionally for new content or refinements.
+For all the examples, I will import the ESS 8 dataset, which you can find in the <a href="https://ess.sikt.no/en/">European Social Survey website</a>. The dataset is in STATA, so I will import it thorugh the following command:
+
+```r
+library(haven)
+df <- read_dta("C:/[directory]/ESS8e02_3.dta") 
+```
+
+
+This is an ongoing project; please check back periodically for new content or updates.
 
 1) [How to Create a STATA-Style Summary Statistics Table and Export It to Excel or LaTeX](https://gubellom.github.io/descriptive_stats/)
    
