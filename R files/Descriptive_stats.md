@@ -122,7 +122,7 @@ Voted last election          43919 1.38    0.64   1   3
 </details>
 
 
-Finally, we can export the results in LaTeX or Excel by simply convert the "row names" into a column. Henceforth, I will use the dataset "summary_df_df":
+Finally, we can export the results in LaTeX or Excel by simply converting the "row names" into a column. Henceforth, I will use the dataset ```summary_df_df```:
 ```r
 
 # Move rownames into a column called "Variable"
