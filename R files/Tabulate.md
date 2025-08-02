@@ -23,7 +23,7 @@ Let's start by importing the necessary packages.
 
 ```r
 pacman::p_load(
-  haven,     # Import Stata Dataset
+  haven,     
   dplyr
 )
 ```
