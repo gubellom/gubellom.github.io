@@ -19,4 +19,4 @@ If you cannot find your R file, you can check the path in your laptop by writing
 normalizePath("~/.Rprofile")
 ```
 
-So far so good, you should have the edit file open in front of you. So, how to create a function?
+Once your Edit file is open, you can write your function. In this example, I am going to write a function for the `tabulate` command that I have presented in [How to Replicate STATA tabulate command: one-way and two-way tables](https://gubellom.github.io/tabulate/).
