@@ -108,7 +108,7 @@ df_oneway <- df_oneway %>%
 
 ```
 
-Notice that the command `%>%` must be read as "and then". However, we can also write:
+Notice that the command `%>%` must be read as "and then apply to `df_oneway` the function `mutate()`". However, we can also write:
 
 ```r
 df_oneway <- mutate(df_oneway,
