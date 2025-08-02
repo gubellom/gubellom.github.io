@@ -18,3 +18,5 @@ If you cannot find your R file, you can check the path in your laptop by writing
 ```r
 normalizePath("~/.Rprofile")
 ```
+
+So far so good, you should have the edit file open in front of you. So, how to create a function?
