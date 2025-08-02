@@ -33,41 +33,63 @@ In our example, we need to take the `tabulate` command built in the previous Git
 
 ```r
 ### TABULATE COMMAND if labels are associated to values:: tab_labels
-tab_labels <- function(var) {
-  # Extract labels if they exist
+tabulate <- function(var) {
+  # Add library warnings
+  if (!requireNamespace("haven", quietly = TRUE)) {
+    stop("Package 'haven' is required but not installed.")
+  }
+
   labels <- attr(var, "labels")
-  
-  # Get label names (if available), otherwise fallback to values
-  response_labels <- if (!is.null(labels)) names(labels) else sort(unique(var))
-  
-  # Convert to factor using haven::as_factor
-  factor_var <- factor(haven::as_factor(var), levels = response_labels)
-  
-  # Frequency table
-  freq_table <- table(factor_var, useNA = "ifany")
+  response_labels <- names(labels)
+  polintr_factor <- factor(as_factor(var))
+  freq_table <- table(polintr_factor, useNA = "ifany")
   percent_table <- round(prop.table(freq_table) * 100, 2)
+  
+  # Cumulative percentage
   cum_percent <- round(cumsum(percent_table), 2)
   
-  # Combine into data frame
+  # Combine into a data frame
   stat_table <- data.frame(
     Response = names(freq_table),
     Frequency = as.vector(freq_table),
     Percentage = as.vector(percent_table),
-    Cumulative = as.vector(cum_percent),
-    stringsAsFactors = FALSE
+    Cumulative = as.vector(cum_percent)
   )
   
-  # Add total row
+  # Add a final row for total
   total_row <- data.frame(
     Response = "Total",
     Frequency = sum(stat_table$Frequency),
     Percentage = sum(stat_table$Percentage),
-    Cumulative = NA_real_,
+    Cumulative = NA_real_,  
     stringsAsFactors = FALSE
   )
   
-  # Final result
   stat_table_final <- rbind(stat_table, total_row)
+  
+  attr(var, "label")
   return(stat_table_final)
 }
+
 ```
+
+To write the function, we need to use a generic `var` label instead of a specific `df_oneway$polintr` command. Then, we can call our `tabulate()` function every time we need it:
+
+```r
+tabulate(df_oneway$polintr)
+```
+
+<details>
+  <summary>[Output]</summary>
+
+  <pre>
+ 
+               Response Frequency Percentage Cumulative
+1       Very interested      5414      12.23      12.23
+2      Quite interested     15535      35.08      47.31
+3     Hardly interested     15245      34.43      81.74
+4 Not at all interested      8087      18.26     100.00
+5                 Total     44281     100.00         NA
+
+</pre>
+</details>
