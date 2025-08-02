@@ -24,7 +24,10 @@ A function has the following structure:
 
 ```r
 function_name <- function(variable) {
- output<- # Build your function here
+
+  # Build your function here
+ 
+ output<- #Save your output here
  return(output)
 }
 ```
