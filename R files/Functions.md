@@ -13,3 +13,8 @@ To create a function, the first step you need to follow is to open the R edit fi
 ```r
 file.edit("~/.Rprofile")
 ```
+If you cannot find your R file, you can check the path in your laptop by writing the following line:
+
+```r
+normalizePath("~/.Rprofile")
+```
