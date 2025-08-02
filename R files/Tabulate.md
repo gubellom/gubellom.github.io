@@ -86,7 +86,7 @@ print(stat_table_final)
 </details>
 
 
-To remove missing values and responses such as *Refusal*, *Don't know*, and *No answer*, I filter a subsample of the data to include only the *gndr* and *polintr* variables. I name the resulting dataset *df_oneway*.
+To remove missing values and responses such as *Refusal*, *Don't know*, and *No answer*, I filter a subsample of the data to include only the `gndr` and `polintr` variables. I name the resulting dataset `df_oneway`.
 
 
 ```r
@@ -107,6 +107,15 @@ df_oneway <- df_oneway %>%
   )
 
 ```
+
+Notice that the command `%>%` must be read as "and then". However, we can also write:
+
+---r
+df_oneway <- mutate(df_oneway,
+    polintr_label = droplevels(polintr_label),
+    gndr_label = droplevels(gndr_label)
+  )
+---
 
 Then, I replicate the ```tabulate``` code using the dataset ```df_oneway```:
 
