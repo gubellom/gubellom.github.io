@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Michele Gubello"
+title: "Functions in R"
 permalink: "/functions/"
 ---
 # How to Create a Function in R?
