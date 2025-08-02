@@ -110,12 +110,12 @@ df_oneway <- df_oneway %>%
 
 Notice that the command `%>%` must be read as "and then". However, we can also write:
 
----r
+```r
 df_oneway <- mutate(df_oneway,
     polintr_label = droplevels(polintr_label),
     gndr_label = droplevels(gndr_label)
   )
----
+```
 
 Then, I replicate the ```tabulate``` code using the dataset ```df_oneway```:
 
