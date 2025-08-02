@@ -55,7 +55,7 @@ print(summary_stats)
 
 
   
-An alternative way to display the table is in long format. In this example, I show the total number of valid (i.e., non-missing) observations, the mean, standard deviation, minimum, and maximum values. For clarity, I also round all values to two decimal places if they have decimals.
+An alternative way to display the table is in a long format. In this example, I show the total number of valid (i.e., non-missing) observations, the mean, standard deviation, minimum, and maximum values. For clarity, I also round all values to two decimal places if they have decimals.
 
 ```r
 # Extract variable labels
