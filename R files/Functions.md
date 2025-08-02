@@ -20,3 +20,45 @@ normalizePath("~/.Rprofile")
 ```
 
 Once your Edit file is open, you can write your function. In this example, I am going to write a function for the `tabulate` command that I have presented in [How to Replicate STATA tabulate command: one-way and two-way tables](https://gubellom.github.io/tabulate/).
+
+
+```r
+### TABULATE COMMAND if labels are associated to values:: tab_labels
+tab_labels <- function(var) {
+  # Extract labels if they exist
+  labels <- attr(var, "labels")
+  
+  # Get label names (if available), otherwise fallback to values
+  response_labels <- if (!is.null(labels)) names(labels) else sort(unique(var))
+  
+  # Convert to factor using haven::as_factor
+  factor_var <- factor(haven::as_factor(var), levels = response_labels)
+  
+  # Frequency table
+  freq_table <- table(factor_var, useNA = "ifany")
+  percent_table <- round(prop.table(freq_table) * 100, 2)
+  cum_percent <- round(cumsum(percent_table), 2)
+  
+  # Combine into data frame
+  stat_table <- data.frame(
+    Response = names(freq_table),
+    Frequency = as.vector(freq_table),
+    Percentage = as.vector(percent_table),
+    Cumulative = as.vector(cum_percent),
+    stringsAsFactors = FALSE
+  )
+  
+  # Add total row
+  total_row <- data.frame(
+    Response = "Total",
+    Frequency = sum(stat_table$Frequency),
+    Percentage = sum(stat_table$Percentage),
+    Cumulative = NA_real_,
+    stringsAsFactors = FALSE
+  )
+  
+  # Final result
+  stat_table_final <- rbind(stat_table, total_row)
+  return(stat_table_final)
+}
+```
