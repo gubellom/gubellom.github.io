@@ -194,7 +194,6 @@ df_twoway <- mutate(df_twoway,
 
 # Generate the 2-way tabulate
 tab_2w <- table(df_twoway$polintr_label, df_twoway$gndr_label, useNA = c("no"))
-print(tab_2w)
 addmargins(tab_2w)
 
 ```
