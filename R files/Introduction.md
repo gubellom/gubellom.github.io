@@ -27,3 +27,6 @@ This is an ongoing project; please check back periodically for new content or up
 1) [How to create a STATA-style summary statistics table and export it to Excel or LaTeX](https://gubellom.github.io/descriptive_stats/)
    
 2) [How to Replicate STATA tabulate command: one-way and two-way tables](https://gubellom.github.io/tabulate/)
+
+3) [How to create a function in R? And why doing it? ](https://gubellom.github.io/functions/)
+
