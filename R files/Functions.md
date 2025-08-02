@@ -31,7 +31,7 @@ function_name <- function(variable) {
  return(output)
 }
 ```
-In our example, we need to take the `tabulate` command built in the previous Github page, and generalise it in a way that it can be applied to any variable of our dataset:
+In our example, we need to take the `tabulate` command built in my [previous Github page](https://gubellom.github.io/tabulate/), and generalise it in a way that it can be applied to any variable of our dataset:
 
 ```r
 ### TABULATE COMMAND if labels are associated to values:: tab_labels
