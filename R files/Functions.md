@@ -21,6 +21,15 @@ normalizePath("~/.Rprofile")
 
 Once your Edit file is open, you can write your function. In this example, I am going to write a function for the `tabulate` command that I have presented in [How to Replicate STATA tabulate command: one-way and two-way tables](https://gubellom.github.io/tabulate/).
 
+A function has the following structure:
+
+```r
+function_name <- function(variable) {
+ output<- # Build your function here
+ return(output)
+}
+```
+In our example, we need to take the `tabulate` command built in the previous Github page, and generalise it in a way that it can be applied to any variable of our dataset:
 
 ```r
 ### TABULATE COMMAND if labels are associated to values:: tab_labels
