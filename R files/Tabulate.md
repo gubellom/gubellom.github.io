@@ -178,8 +178,7 @@ df_twoway$polintr_label<-as_factor(df_twoway$polintr)
 df_twoway$gndr_label<-as_factor(df_twoway$gndr)
 
 # Removes unused factor levels (levels with 0 observations)
-df_twoway <- df_twoway %>%
-  mutate(
+df_twoway <- mutate(df_twoway,
     polintr_label = droplevels(polintr_label),
     gndr_label = droplevels(gndr_label)
   )
