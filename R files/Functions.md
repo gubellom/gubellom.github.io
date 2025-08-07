@@ -40,8 +40,8 @@ In our example, we need to take the `tabulate` command built into the previous G
 ### TABULATE COMMAND if labels are associated to values:: tab_labels
 tabulate <- function(var) {
 # Add library warnings
-if (!requireNamespace("haven", quietly = TRUE)) {
-  stop("Package 'haven' is required but not installed. Please install it using install.packages('haven').")
+  if (!require("haven", quietly = TRUE)) {
+  stop("Package 'haven' is required but not installed.")
 }
   labels <- attr(var, "labels")
   response_labels <- names(labels)
@@ -96,6 +96,15 @@ tabulate(df_oneway$polintr)
 
 </pre>
 </details>
+
+Notice that the library warning below is redundant in our case, as we need the library's `haven' to import a Stata dataset. So, no error message would appear.
+
+```r
+# Library warning in the code
+  if (!require("haven", quietly = TRUE)) {
+  stop("Package 'haven' is required but not installed.")
+}
+```
 
 
 Go back to the [Introduction webpage ↩ ](https://gubellom.github.io/michelegubello_Introduction/)
