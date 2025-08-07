@@ -97,6 +97,7 @@ tabulate(df_oneway$polintr)
 </pre>
 </details>
 
+<!--
 Notice that the library warning below is redundant in our case, as we need the library's `haven' to import a Stata dataset. So, no error message would appear.
 
 ```r
@@ -105,6 +106,6 @@ Notice that the library warning below is redundant in our case, as we need the l
   stop("Package 'haven' is required but not installed.")
 }
 ```
-
+--->
 
 Go back to the [Introduction webpage ↩ ](https://gubellom.github.io/michelegubello_Introduction/)
