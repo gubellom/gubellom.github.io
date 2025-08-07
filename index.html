@@ -1,0 +1,14 @@
+---
+layout: default
+title: "Home"
+---
+<html>
+<head>
+  <meta name="google-site-verification" content="VwKxZ5CBLhIcZXzI63qLFH1Hf-oeVN8g6N5vHHBaRAs" />
+  </head>
+</html>
+  {% if site.show_excerpts %}
+  {% include home.html %}
+{% else %}
+  {% include archive.html title="Posts" %}
+{% endif %}

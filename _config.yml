@@ -1,0 +1,40 @@
+# {{ site.title }}
+
+title: "Michele Gubello"
+author: "Michele Gubello"
+description: "  "
+permalink: /:title/
+lang: "en"
+excerpt_separator: "\n\n\n"
+date_format: "%B %d, %Y"
+
+# Layout
+
+show_excerpts: true        # show article excerpts on the home page
+show_frame: true           # adds a gray frame to the site
+show_sidebar: true       # show a sidebar instead of the usual header
+minimal: false             # use a dark header
+#show_social: false
+# Menu
+
+navigation:                # accepts {file, title, url, icon, sidebaricon}
+  - {file: "presentation.md", title: "About me", icon: home}
+  - {file: "replication.md", title: "Research", icon: briefcase }
+  - {url: "/michelegubello_Introduction/", title: "R for data analysis", icon: folder-open}
+ # - {file: "cv.md", title: "CV", icon: envelope }
+
+    #- {title: "Replication code", icon: github, url: "https://github.com/gubellom"}
+  #- {file: "cv.pdf", title: "CV", icon:  Home }
+
+
+#external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
+  #- {title: Mail, icon: envelope, url: "michele.gubello@esri.ie"}
+  # {title: Google Shcolar, icon: github, url: "https://gubellom.github.io"}
+  #- {title: Subscribe, icon: rss, url: "/feed.xml"}
+
+#comments:
+#  disqus_shortname: ""    # see https://disqus.com/
+#  isso_domain: ""         # see https://posativ.org/isso/
+
+ #plugins:
+#- jekyll-feed
