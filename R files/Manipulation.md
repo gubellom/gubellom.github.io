@@ -4,20 +4,19 @@ title: ""
 permalink: "/datacleaning/"
 ---
 
-# Data cleaning tools.
+# Data cleaning
 
-This tutorial walks through essential **data cleaning techniques in R** using practical examples. You’ll learn how to:  
+This page guides you through basic data cleaning methods in R, using clear and practical examples. As you follow along, you will see how each technique works and why it is useful for preparing your data for analysis. You will learn how to:
 
 - **Select variables** from a dataset and examine their distributions.  
 - **Create dummy variables** from categorical responses.  
 - **Generate and recode categorical variables**, including grouping values and adding descriptive labels.  
 - **Filter data** based on conditions (similar to Stata’s `keep if`).  
-- **Create variables conditionally** on others.  
+- **Create variables conditionally** on other variables' values.  
 - Perform **basic arithmetic operations** on variables.  
 - **Handle missing values** by removing rows with `NA`s in key fields.  
 
-By the end, you’ll be able to transform messy raw data into a cleaner, more analysis-ready format using R’s `dplyr` and related tools. So, it is enough to import:
-
+By the end of this tutorial, you will know how to clean raw data. You will do this using R's `dplyr` library, which you can load into your R session by running the following command:
 ```r
 library(dplyr)
 ```
