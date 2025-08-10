@@ -140,7 +140,7 @@ tabulate(df_cleaned$education)
 1 Education: higher     17038      38.39      38.39
 2 Education: middle     15883      35.78      74.17
 3  Education: lower     11249      25.34      99.51
-4              <NA>       217       0.49     100.00
+4                NA       217       0.49     100.00
 5             Total     44387     100.00         NA
   </pre>
 </details>
