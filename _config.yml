@@ -1,7 +1,7 @@
 # {{ site.title }}
 
 title: "Michele Gubello"
-author: "Michele Gubello"
+#author: "Michele Gubello"
 description: "  "
 permalink: /:title/
 lang: "en"
