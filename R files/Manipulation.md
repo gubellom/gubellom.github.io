@@ -146,7 +146,7 @@ tabulate(df_cleaned$education)
 </details>
 
 
-# Keep a subset of the original data that meets certain conditions
+## Keep a subset of the original data that meets certain conditions
  
 Stata equivalent to `keep if`
 
@@ -173,3 +173,5 @@ summary(df_cleaned$agea)
 15.00   30.00   43.00   41.96   54.00   65.00 
   </pre>
 </details>
+
+## Create variable conditional to another variable
