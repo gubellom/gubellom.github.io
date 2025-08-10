@@ -35,13 +35,8 @@ df_cleaned<-select(df, vote, agea, eisced)
 
 
 ## Generate Dummy Variable
-A dummy variable is a binary indicator, usually coded as 1 or 0.  
-Here we create `vote_variable`:
+A dummy variable is a binary indicator that takes values 1 or 0. Here, we create a dummy variable, `vote_variable`, which takes the value 1 if the respondent says they voted and 0 otherwise. Before we begin, let us check the structure of the variable `vote` using the `tabulate()` command that we created in [How to create a function in R, and why should you do it?](https://gubellom.github.io/functions/):
 
-- `1` if the person voted 
-- `0` otherwise
-
-Let us check the structure of the variable `vote` using the command `tabulate()` that we created in [How to create a function in R, and why should you do it? ](https://gubellom.github.io/functions/):
 
 ```r
 tabulate(df_cleaned$vote)
