@@ -8,7 +8,7 @@ permalink: "/datacleaning/"
 
 This page guides you through basic data cleaning methods in R, using clear and practical examples. As you follow along, you will see how each technique works and why it is useful for preparing your data for analysis. You will learn how to:
 
-- **Select variables** from a dataset and examine their distributions.  
+- **Select variables** from a dataset to work with a subsample of data.
 - **Create dummy variables** from categorical responses.  
 - **Generate and recode categorical variables**, including grouping values and adding descriptive labels.  
 - **Filter data** based on conditions (similar to Stata’s `keep if`).  
