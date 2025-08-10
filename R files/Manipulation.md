@@ -21,9 +21,7 @@ By the end of this tutorial, you will know how to clean raw data. You will do th
 library(dplyr)
 ```
 
-
-
-Before starting analysis, we select only a subsample of variables from our dataset. We keep only three variables:
+Before starting our data cleaning, we select only a subsample of variables from our dataset. We keep only three variables:
 
 - `vote`: whether the respondent voted  
 - `agea`: age of respondent  
@@ -33,6 +31,19 @@ and save them into the dataframe `df_cleaned`:
 
 ```r
 df_cleaned<-select(df, vote, agea, eisced)
+```
+
+
+## Generate Dummy Variable
+A dummy variable is a binary indicator, usually coded as 1 or 0.  
+Here we create `vote_variable`:
+
+- `1` if the person voted (`vote == 1`)  
+- `0` otherwise
+
+Let us check the structure of the variable `vote` using the command `tabulate()` that we created in the previous page:
+
+```r
 tabulate(df_cleaned$vote)
 ```
 <details>
@@ -50,12 +61,6 @@ tabulate(df_cleaned$vote)
   </pre>
 </details>
 
-## Generate Dummy Variable
-A dummy variable is a binary indicator, usually coded as 1 or 0.  
-Here we create `vote_variable`:
-
-- `1` if the person voted (`vote == 1`)  
-- `0` otherwise  
 ```r
 df_cleaned$vote_variable<-ifelse(df_cleaned$vote==1, 1, 0)
 tabulate(df_cleaned$vote_variable)
