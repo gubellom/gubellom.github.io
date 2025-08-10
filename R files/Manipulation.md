@@ -160,7 +160,7 @@ sum(df_cleaned$eisced == 0, na.rm = TRUE)
   </pre>
 </details>
 
-We simplify our `eisced` variable by grouping it into three categories: (1) Lower education (ES-ISCED I, ES-ISCED II), (2) Middle education (ES-ISCED IIIb, ES-ISCED IIIa), and (3) Higher education (ES-ISCED IV, ES-ISCED V1, ES-ISCED V2). To do this, we use a *nested* `ifelse` function. An `ifelse` statement is a function that assigns a specific value if a condition is true, and another value if it is false. It is called *nested* because multiple `ifelse` functions are combined within one another. Notice that `%in%` can be read as "*belongs to the vector*". Essentially, we can read the first line of code as: *If the value in `df_cleaned$eisced` is 1 or 2, assign value 1 to `df_cleaned$education`*. The other lines follow a similar logic.
+We simplify our `eisced` variable by grouping it into three categories: (1) Lower education (ES-ISCED I, ES-ISCED II), (2) Middle education (ES-ISCED IIIb, ES-ISCED IIIa), and (3) Higher education (ES-ISCED IV, ES-ISCED V1, ES-ISCED V2). To do this, we use a *nested* `ifelse` function. An `ifelse` statement is a function that assigns a specific value if a condition is true, and another value if it is false. It is called *nested* because multiple `ifelse` functions are combined within one another. Notice that `%in%` can be read as "*belongs to the vector*". Essentially, we can read the first line of code as: "*If the value in `df_cleaned$eisced` is 1 or 2, assign value 1 to `df_cleaned$education`*". The other lines follow a similar logic.
 
 ```r
 # Use nested ifelse
