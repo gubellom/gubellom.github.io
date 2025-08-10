@@ -130,6 +130,8 @@ df_cleaned <- df_cleaned %>%
     TRUE ~ NA_character_
   ))
 tabulate(df_cleaned$education)
+```
+
 
 <details>
   <summary>[Output]</summary>
@@ -143,4 +145,4 @@ tabulate(df_cleaned$education)
   </pre>
 </details>
 
-```
+
