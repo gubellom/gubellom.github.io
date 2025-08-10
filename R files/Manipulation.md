@@ -6,6 +6,19 @@ permalink: "/datacleaning/"
 
 # Data cleaning tools.
 
+This tutorial walks through essential **data cleaning techniques in R** using practical examples. You’ll learn how to:  
+
+- **Select variables** from a dataset and examine their distributions.  
+- **Create dummy variables** from categorical responses.  
+- **Generate and recode categorical variables**, including grouping values and adding descriptive labels.  
+- **Filter data** based on conditions (similar to Stata’s `keep if`).  
+- **Create variables conditionally** on others.  
+- Perform **basic arithmetic operations** on variables.  
+- **Handle missing values** by removing rows with `NA`s in key fields.  
+
+By the end, you’ll be able to transform messy raw data into a cleaner, more analysis-ready format using R’s `dplyr` and related tools.
+
+
 ```r
 df_cleaned<-select(df, vote, polintr, ipstrgv, agea, eisced)
 tabulate(df_cleaned$vote)
@@ -208,3 +221,18 @@ Min. 1st Qu.  Median    Mean 3rd Qu.    Max.
 df_cleaned <- filter(df_cleaned, !is.na(vote))
 tabulate(df_cleaned$vote)
 ```
+
+
+<details>
+  <summary>[Output]</summary>
+  <pre>
+              Response Frequency Percentage Cumulative
+1                  Yes     22766      66.16      66.16
+2                   No      7786      22.63      88.79
+3 Not eligible to vote      3504      10.18      98.97
+4              Refusal       188       0.55      99.52
+5           Don't know       159       0.46      99.98
+6            No answer         5       0.01      99.99
+7                Total     34408      99.99         NA
+  </pre>
+</details>
