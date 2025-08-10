@@ -23,20 +23,16 @@ library(dplyr)
 
 
 
-Before starting analysis, it’s best to work only with the variables you need.  
-Here, we keep:
+Before starting analysis, we select only a subsample of variables from our dataset. We keep only three variables:
 
 - `vote`: whether the respondent voted  
-- `polintr`: political interest  
-- `ipstrgv`: importance of strong government  
 - `agea`: age of respondent  
 - `eisced`: education level (ES-ISCED classification)
 
-
-
+and save them into the dataframe `df_cleaned`:
 
 ```r
-df_cleaned<-select(df, vote, polintr, ipstrgv, agea, eisced)
+df_cleaned<-select(df, vote, agea, eisced)
 tabulate(df_cleaned$vote)
 ```
 <details>
