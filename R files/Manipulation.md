@@ -38,7 +38,7 @@ tabulate(df_cleaned$vote_variable)
   Response Frequency Percentage Cumulative
 1        0     13104      29.52      29.52
 2        1     30815      69.42      98.94
-3     <NA>       468       1.05      99.99
+3       NA       468       1.05      99.99
 4    Total     44387      99.99         NA
   </pre>
 </details>
