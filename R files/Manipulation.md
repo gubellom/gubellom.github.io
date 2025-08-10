@@ -175,3 +175,8 @@ summary(df_cleaned$agea)
 </details>
 
 ## Create variable conditional to another variable
+
+```r
+df_cleaned<-mutate(df_cleaned, no_vote_18 =ifelse(vote==3 & agea<18, 1, 0))
+tabulate(df_cleaned$no_vote_18)
+```
