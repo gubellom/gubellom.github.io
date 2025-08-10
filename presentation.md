@@ -21,9 +21,7 @@ My research focuses on the intersection of public economics, political economy, 
   </div>
 </div>
 
-On this website, I will mostly share my research results.
-
-
+<!--On this website, I will mostly share my research results.-->
 You can contact me at: michele [dot] gubello [at] esri [dot] ie
 
 
