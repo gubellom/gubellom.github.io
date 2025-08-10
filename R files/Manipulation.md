@@ -20,14 +20,14 @@ By the end of this tutorial, you will know how to clean raw data. You will do th
 ```r
 library(dplyr)
 ```
-
+## Select a subsample of data
 Before starting our data cleaning, we select only a subsample of variables from our dataset. We keep only three variables:
 
 - `vote`: whether the respondent voted  
 - `agea`: age of respondent  
 - `eisced`: education level (ES-ISCED classification)
 
-and save them into the dataframe `df_cleaned`:
+and save them into the dataframe `df_cleaned`, using the function `select()`:
 
 ```r
 df_cleaned<-select(df, vote, agea, eisced)
