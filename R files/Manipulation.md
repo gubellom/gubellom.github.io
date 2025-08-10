@@ -38,7 +38,7 @@ df_cleaned<-select(df, vote, agea, eisced)
 A dummy variable is a binary indicator, usually coded as 1 or 0.  
 Here we create `vote_variable`:
 
-- `1` if the person voted (`vote == 1`)  
+- `1` if the person voted 
 - `0` otherwise
 
 Let us check the structure of the variable `vote` using the command `tabulate()` that we created in [How to create a function in R, and why should you do it? ](https://gubellom.github.io/functions/):
@@ -48,7 +48,6 @@ tabulate(df_cleaned$vote)
 ```
 <details>
   <summary>[Output]</summary>
-
   <pre>
               Response Frequency Percentage Cumulative
 1                  Yes     30815      69.42      69.42
@@ -58,6 +57,22 @@ tabulate(df_cleaned$vote)
 5           Don't know       209       0.47      99.98
 6            No answer         9       0.02     100.00
 7                Total     44387     100.00         NA
+  </pre>
+</details>
+
+We then check the values assigned to each label using the command `attr()`:
+
+```r
+attr(df_cleaned$eisced, "labels")
+```
+
+<details>
+  <summary>[Output]</summary>
+  <pre>
+                 Yes                   No Not eligible to vote              Refusal 
+                   1                    2                    3                   NA 
+          Don't know            No answer 
+                  NA                   NA
   </pre>
 </details>
 
