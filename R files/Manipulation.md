@@ -18,6 +18,15 @@ This tutorial walks through essential **data cleaning techniques in R** using pr
 
 By the end, you’ll be able to transform messy raw data into a cleaner, more analysis-ready format using R’s `dplyr` and related tools.
 
+Before starting analysis, it’s best to work only with the variables you need.  
+Here, we keep:
+
+- `vote`: whether the respondent voted  
+- `polintr`: political interest  
+- `ipstrgv`: importance of strong government  
+- `agea`: age of respondent  
+- `eisced`: education level (ES-ISCED classification)  
+
 
 ```r
 df_cleaned<-select(df, vote, polintr, ipstrgv, agea, eisced)
