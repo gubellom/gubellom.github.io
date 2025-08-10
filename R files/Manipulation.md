@@ -158,7 +158,7 @@ summary(df_cleaned$agea)
   <summary>[Output]</summary>
   <pre>
 Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
-  15.00   34.00   49.00   49.14   64.00  100.00     155 
+15.00   34.00   49.00   49.14   64.00  100.00     155 
   </pre>
 </details>
 
@@ -170,6 +170,6 @@ summary(df_cleaned$agea)
   <summary>[Output]</summary>
   <pre>
  Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
-  15.00   30.00   43.00   41.96   54.00   65.00 
+15.00   30.00   43.00   41.96   54.00   65.00 
   </pre>
 </details>
