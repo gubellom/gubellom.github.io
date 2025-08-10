@@ -63,7 +63,7 @@ tabulate(df_cleaned$vote)
 We then check the values assigned to each label using the command `attr()`:
 
 ```r
-attr(df_cleaned$eisced, "labels")
+attr(df_cleaned$vote, "labels")
 ```
 
 <details>
