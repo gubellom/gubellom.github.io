@@ -94,7 +94,10 @@ tabulate(df_cleaned$vote_variable)
 </details>
 
 ## Generate a categorical variable
-Before recoding, it’s important to inspect the distribution of categories and their labels. This helps you understand the meaning of each value and plan your recoding strategy.
+Another important coding practice is generating a new categorical variable from an existing one. This is useful when you want to group a few categories because they have only a few observations, or when you want to simplify the categorical variable by creating broader categories.
+
+We choose the variable `eisced`, which gives us the ISCED educational levels of each respondent. As before, we check the structure of the variable using the commands `tabulate()` and `attr()`.
+
 ```r
 tabulate(df_cleaned$eisced)
 ```
@@ -151,11 +154,8 @@ ES-ISCED V2, higher tertiary education, >= MA level
   </pre>
 </details>
 
-We group `eisced` into:
+We simplify our `eisced` variable and group `eisced` into: (I) Lower education (ES-ISCED I , less than lower secondary, ES-ISCED II, lower secondary ), (II) Middle education (levels 3, 4) and (III) Higher education (levels 5, 6, 7)  
 
-1. Lower education (levels 1, 2)  
-2. Middle education (levels 3, 4)  
-3. Higher education (levels 5, 6, 7)  
 
 This reduces complexity and makes analysis easier.
 
