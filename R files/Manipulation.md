@@ -33,7 +33,6 @@ tabulate(df_cleaned$vote_variable)
 ```
 <details>
   <summary>[Output]</summary>
-
   <pre>
   Response Frequency Percentage Cumulative
 1        0     13104      29.52      29.52
@@ -43,12 +42,65 @@ tabulate(df_cleaned$vote_variable)
   </pre>
 </details>
 
+## Generate a categorical variable
+
+```r
+tabulate(df_cleaned$eisced)
+```
+<details>
+  <summary>[Output]</summary>
+  <pre>
+                                              Response Frequency Percentage Cumulative
+1               ES-ISCED I , less than lower secondary      3861       8.70       8.70
+2                         ES-ISCED II, lower secondary      7388      16.64      25.34
+3            ES-ISCED IIIb, lower tier upper secondary      7163      16.14      41.48
+4            ES-ISCED IIIa, upper tier upper secondary      8720      19.65      61.13
+5         ES-ISCED IV, advanced vocational, sub-degree      6265      14.11      75.24
+6      ES-ISCED V1, lower tertiary education, BA level      4760      10.72      85.96
+7  ES-ISCED V2, higher tertiary education, >= MA level      6013      13.55      99.51
+8                                                Other        88       0.20      99.71
+9                                              Refusal        82       0.18      99.89
+10                                          Don't know        39       0.09      99.98
+11                                           No answer         8       0.02     100.00
+12                                               Total     44387     100.00         NA
+  </pre>
+</details>
 
 
 ```r
-#Generate categorical variable
-tabulate(df_cleaned$eisced)
 attr(df_cleaned$eisced, "labels")
+```
+<details>
+  <summary>[Output]</summary>
+  <pre>
+            Not possible to harmonise into ES-ISCED 
+                                                  0 
+             ES-ISCED I , less than lower secondary 
+                                                  1 
+                       ES-ISCED II, lower secondary 
+                                                  2 
+          ES-ISCED IIIb, lower tier upper secondary 
+                                                  3 
+          ES-ISCED IIIa, upper tier upper secondary 
+                                                  4 
+       ES-ISCED IV, advanced vocational, sub-degree 
+                                                  5 
+    ES-ISCED V1, lower tertiary education, BA level 
+                                                  6 
+ES-ISCED V2, higher tertiary education, >= MA level 
+                                                  7 
+                                              Other 
+                                                 55 
+                                            Refusal 
+                                                 NA 
+                                         Don't know 
+                                                 NA 
+                                          No answer 
+                                                 NA 
+  </pre>
+</details>
+
+```r
 # Use nested ifelse
 df_cleaned$education <- ifelse(df_cleaned$eisced %in% c(1, 2), 1,
                         ifelse(df_cleaned$eisced %in% c(3, 4), 2,
