@@ -21,9 +21,11 @@ My research focuses on the intersection of public economics, political economy, 
   </div>
 </div>-->
 
-On this website, I will mostly share my research results.
+On this website, I will mostly share my research results.<br>
+<br>
 
-You can contact me at: michele [dot] gubello [at] esri [dot] ie
+You can contact me at: michele [dot] gubello [at] esri [dot] ie<br>
+<br>
 
 
 | <a href="https://gubellom.github.io/michelegubello_replication">RESEARCH</a> | <a href="https://shorturl.at/61bwb">GOOGLE SCHOLAR</a> | <a href="https://gubellom.github.io/michelegubello_Introduction/">R FOR DATA ANALYSIS</a> |
