@@ -76,6 +76,8 @@ attr(df_cleaned$vote, "labels")
   </pre>
 </details>
 
+We create a dummy variable, `vote_variable`, which takes the value 1 if a respondent voted in the last election, and 0 if the respondent did not vote or was not eligible to vote. NA values remain as NA in the new dummy variable.
+
 ```r
 df_cleaned$vote_variable<-ifelse(df_cleaned$vote==1, 1, 0)
 tabulate(df_cleaned$vote_variable)
