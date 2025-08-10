@@ -1,6 +1,6 @@
 # {{ site.title }}
 
-title: "Michele Gubello" # "Michele Gubello"
+title: "" # "Michele Gubello"
 author: " " # "Michele Gubello"
 description: "  "
 permalink: /:title/
