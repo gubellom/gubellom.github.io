@@ -60,7 +60,7 @@ tabulate(df_cleaned$vote)
   </pre>
 </details>
 
-We then check the values assigned to each label using the command `attr()`:
+We then check the values assigned to each label using the command `attr()`. Alternatively, one can use the command `table()`, which provides the value and the number of observations per value.
 
 ```r
 attr(df_cleaned$vote, "labels")
@@ -151,6 +151,18 @@ ES-ISCED V2, higher tertiary education, >= MA level
                                                  NA 
                                           No answer 
                                                  NA 
+  </pre>
+</details>
+
+Notice that while the category "*Not possible to harmonise into ES-ISCED*" exists, it has 0 observations. We can verify this using the command `sum()`:
+
+```r
+sum(df_cleaned$eisced == 0, na.rm = TRUE)
+```
+<details>
+  <summary>[Output]</summary>
+  <pre>
+[1] 0
   </pre>
 </details>
 
