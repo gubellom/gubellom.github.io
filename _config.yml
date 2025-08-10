@@ -18,7 +18,7 @@ minimal: false             # use a dark header
 # Menu
 
 navigation:                # accepts {file, title, url, icon, sidebaricon}
-  - {file: "presentation.md", title: "About me", icon: home}
+  - {file: "presentation.md", title: "About me", icon: /assets/icons/home.svg}
   - {file: "replication.md", title: "Research", icon: briefcase }
   - {url: "/michelegubello_Introduction/", title: "R for data analysis", icon: folder-open}
  # - {file: "cv.md", title: "CV", icon: envelope }
