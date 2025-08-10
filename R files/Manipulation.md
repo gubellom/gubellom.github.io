@@ -166,11 +166,7 @@ sum(df_cleaned$eisced == 0, na.rm = TRUE)
   </pre>
 </details>
 
-We simplify our `eisced` variable and group `eisced` into: (I) Lower education (ES-ISCED I , less than lower secondary, ES-ISCED II, lower secondary ), (II) Middle education (levels 3, 4) and (III) Higher education (levels 5, 6, 7)  
-
-
-This reduces complexity and makes analysis easier.
-
+We simplify our `eisced` variable and group `eisced` into: (1) Lower education (ES-ISCED I, ES-ISCED II), (2) Middle education (ES-ISCED IIIb,  ES-ISCED IIIa) and (3) Higher education (ES-ISCED IV, ES-ISCED V1, ES-ISCED V2). To do so, we use a nested `ifelse` statement. Notice that `%in%` can be read as "*belongs to*" the set of values 1 or 2 (if we wrote `c(1,2)`.
 
 ```r
 # Use nested ifelse
