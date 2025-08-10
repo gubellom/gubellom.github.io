@@ -33,7 +33,6 @@ and save them into the dataframe `df_cleaned`, using the function `select()`:
 df_cleaned<-select(df, vote, agea, eisced)
 ```
 
-
 ## Generate Dummy Variable
 A dummy variable is a binary indicator that takes a value of 1 or 0. Here, we create a dummy variable, `vote_variable`, which takes the value 1 if the respondent reports voting in the last elections and 0 otherwise. Before we begin, let us check the structure of the variable `vote` using the `tabulate()` command that we created in [How to create a function in R, and why should you do it?](https://gubellom.github.io/functions/):
 
