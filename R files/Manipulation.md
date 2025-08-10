@@ -180,3 +180,31 @@ summary(df_cleaned$agea)
 df_cleaned<-mutate(df_cleaned, no_vote_18 =ifelse(vote==3 & agea<18, 1, 0))
 tabulate(df_cleaned$no_vote_18)
 ```
+
+## Basic operations
+
+```r
+#Divide age by 100
+df_cleaned$age_100<-df_cleaned$agea/100
+df_cleaned$age_times_100<-df_cleaned$agea*100
+```
+
+<details>
+  <summary>[Output]</summary>
+  <pre>
+summary(df_cleaned$age_100)
+Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+0.1500  0.3000  0.4300  0.4196  0.5400  0.6500 
+
+summary(df_cleaned$age_times_100)
+Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+1500    3000    4300    4196    5400    6500 
+  </pre>
+</details>
+
+#remove all the missing values row for vote
+
+```r
+df_cleaned <- filter(df_cleaned, !is.na(vote))
+tabulate(df_cleaned$vote)
+```
