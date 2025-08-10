@@ -106,15 +106,41 @@ df_cleaned$education <- ifelse(df_cleaned$eisced %in% c(1, 2), 1,
                         ifelse(df_cleaned$eisced %in% c(3, 4), 2,
                         ifelse(df_cleaned$eisced %in% c(5, 6, 7), 3, NA)))
 tabulate(df_cleaned$education)
+```
+<details>
+  <summary>[Output]</summary>
+  <pre>
+  Response Frequency Percentage Cumulative
+1        1     11249      25.34      25.34
+2        2     15883      35.78      61.12
+3        3     17038      38.39      99.51
+4     <NA>       217       0.49     100.00
+5    Total     44387     100.00         NA
+  </pre>
+</details>
 
+  
+```r
 #We also relabel education
 df_cleaned <- df_cleaned %>%
-  mutate(education_label = case_when(
+  mutate(education = case_when(
     education == 1 ~ "Education: lower",
     education == 2 ~ "Education: middle",
     education == 3 ~ "Education: higher",
     TRUE ~ NA_character_
   ))
 tabulate(df_cleaned$education)
+
+<details>
+  <summary>[Output]</summary>
+  <pre>
+           Response Frequency Percentage Cumulative
+1 Education: higher     17038      38.39      38.39
+2 Education: middle     15883      35.78      74.17
+3  Education: lower     11249      25.34      99.51
+4              <NA>       217       0.49     100.00
+5             Total     44387     100.00         NA
+  </pre>
+</details>
 
 ```
