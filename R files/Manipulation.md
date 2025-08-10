@@ -41,7 +41,7 @@ Here we create `vote_variable`:
 - `1` if the person voted (`vote == 1`)  
 - `0` otherwise
 
-Let us check the structure of the variable `vote` using the command `tabulate()` that we created in the previous page:
+Let us check the structure of the variable `vote` using the command `tabulate()` that we created in [How to create a function in R, and why should you do it? ](https://gubellom.github.io/functions/):
 
 ```r
 tabulate(df_cleaned$vote)
