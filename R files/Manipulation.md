@@ -154,7 +154,7 @@ ES-ISCED V2, higher tertiary education, >= MA level
   </pre>
 </details>
 
-Notice that while the category "*Not possible to harmonise into ES-ISCED*" exists, it has 0 observations. We can verify this using the command `sum()`:
+Notice that while the category "*Not possible to harmonise into ES-ISCED*" exists, it has 0 observations and therefore does not appear in the output of `tabulate()` or `table()`. We can verify the number of observations in each category using the `sum()` command:
 
 ```r
 sum(df_cleaned$eisced == 0, na.rm = TRUE)
