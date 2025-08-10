@@ -48,7 +48,11 @@ tabulate(df_cleaned$vote)
 </details>
 
 ## Generate Dummy Variable
+A dummy variable is a binary indicator, usually coded as 1 or 0.  
+Here we create `vote_variable`:
 
+- `1` if the person voted (`vote == 1`)  
+- `0` otherwise  
 ```r
 df_cleaned$vote_variable<-ifelse(df_cleaned$vote==1, 1, 0)
 tabulate(df_cleaned$vote_variable)
@@ -65,7 +69,7 @@ tabulate(df_cleaned$vote_variable)
 </details>
 
 ## Generate a categorical variable
-
+Before recoding, it’s important to inspect the distribution of categories and their labels. This helps you understand the meaning of each value and plan your recoding strategy.
 ```r
 tabulate(df_cleaned$eisced)
 ```
@@ -122,6 +126,15 @@ ES-ISCED V2, higher tertiary education, >= MA level
   </pre>
 </details>
 
+We group `eisced` into:
+
+1. Lower education (levels 1, 2)  
+2. Middle education (levels 3, 4)  
+3. Higher education (levels 5, 6, 7)  
+
+This reduces complexity and makes analysis easier.
+
+
 ```r
 # Use nested ifelse
 df_cleaned$education <- ifelse(df_cleaned$eisced %in% c(1, 2), 1,
@@ -140,6 +153,13 @@ tabulate(df_cleaned$education)
 5    Total     44387     100.00         NA
   </pre>
 </details>
+
+
+Numbers are replaced with descriptive labels for easier interpretation:  
+
+- `Education: lower`  
+- `Education: middle`  
+- `Education: higher`  
 
   
 ```r
@@ -170,7 +190,7 @@ tabulate(df_cleaned$education)
 
 ## Keep a subset of the original data that meets certain conditions
  
-Stata equivalent to `keep if`
+Stata equivalent to `keep if`. We keep only respondents between 15 and 65 years old to focus on the working-age population and exclude outliers.
 
 ```r
 summary(df_cleaned$agea)
@@ -205,6 +225,12 @@ tabulate(df_cleaned$no_vote_18)
 
 ## Basic operations
 
+We transform age with simple operations:
+
+- Divide by 100 → `age_100`  
+- Multiply by 100 → `age_times_100`  
+
+
 ```r
 #Divide age by 100
 df_cleaned$age_100<-df_cleaned$agea/100
@@ -224,7 +250,9 @@ Min. 1st Qu.  Median    Mean 3rd Qu.    Max.
   </pre>
 </details>
 
-#remove all the missing values row for vote
+## Remove all the missing values row for vote
+
+We drop all rows where `vote` is missing to ensure a clean dataset for analysis.
 
 ```r
 df_cleaned <- filter(df_cleaned, !is.na(vote))
