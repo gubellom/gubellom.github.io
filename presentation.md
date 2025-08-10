@@ -7,12 +7,12 @@ permalink: "/"
   <meta name="google-site-verification" content="VwKxZ5CBLhIcZXzI63qLFH1Hf-oeVN8g6N5vHHBaRAs" />
 </head>
 
-<!-- <div style="display: flex; align-items: center;">
+ <div style="display: flex; align-items: center;">
   <div style="flex: 1;">
     <img src="https://github.com/gubellom/gubellom.github.io/blob/master/profile.JPG?raw=true" alt="My Photo" style="width:200px; border-radius:50%;">
   </div>
   <div style="flex: 2; margin-left: 20px;">
-    <p> -->
+    <p>
     
 I am a postdoctoral research fellow at the <a href="https://www.esri.ie/people/michele-gubello">Economic and Social Research Institute, Dublin</a>, a Visiting Research Fellow at Trinity College Dublin and a member of the <a href="https://euromod-web.jrc.ec.europa.eu/overview/country-by-country/detail?id=10">Irish EUROMOD Team</a>. In 2025, I was also an external lecturer in Public Economics at Maynooth University. <br>
 <br>
