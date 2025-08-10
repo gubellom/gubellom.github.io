@@ -146,6 +146,6 @@ tabulate(df_cleaned$education)
 </details>
 
 
-# Keep a subset of the original data that meets your condition 
+# Keep a subset of the original data that meets certain conditions
  
 Stata equivalent to `keep if`
