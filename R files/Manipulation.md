@@ -181,16 +181,9 @@ tabulate(df_cleaned$education)
   </pre>
 </details>
 
-
-Numbers are replaced with descriptive labels for easier interpretation:  
-
-- `Education: lower`  
-- `Education: middle`  
-- `Education: higher`  
-
+We can now relabel the values associated with each response. We choose three simple labels: *Education: lower*, *Education: middle* and *Education: higher*.
   
 ```r
-#We also relabel education
 df_cleaned <- df_cleaned %>%
   mutate(education = case_when(
     education == 1 ~ "Education: lower",
@@ -200,8 +193,6 @@ df_cleaned <- df_cleaned %>%
   ))
 tabulate(df_cleaned$education)
 ```
-
-
 <details>
   <summary>[Output]</summary>
   <pre>
