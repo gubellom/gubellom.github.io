@@ -205,7 +205,7 @@ tabulate(df_cleaned$education)
   </pre>
 </details>
 
-The above code applies the `mutate()` function to modify the values in `education`. Precisely, `df_cleaned %>% mutate(education = ...)` can be read as *Take the dataset `df_cleaned` and then (`%>%`) mutate the variable `education`)*. Then, we use `case_when()`. This function modifies (or creates) new variables based on multiple conditions (e.g., *If `education` is 1, it assigns the label "Education: lower"*):
+The above code applies the `mutate()` function to modify the values in `education`. Precisely, `df_cleaned %>% mutate(education = ...)` can be read as *Take the dataset `df_cleaned` and then (`%>%`) mutate the variable `education`)*. Then, we use `case_when()`. This function modifies a variable (or creates a new variable) based on multiple conditions (e.g., *If `education` is 1, it assigns the label "Education: lower"*):
 
 ```r
 case_when(
