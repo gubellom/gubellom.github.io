@@ -219,8 +219,8 @@ Finally, `TRUE ~ default_value` is the equivalent of an `else` statement. Namely
 
 
 ## Keep a subset of the original data that meets certain conditions
- 
-Stata equivalent to `keep if`. We keep only respondents between 15 and 65 years old to focus on the working-age population and exclude outliers.
+
+Another useful function is `filter()`. This function is the Stata equivalent of `keep if`. It allows us to keep only observations satisfying specific conditions. For instance, assume we want to focus on the working-age population by keeping only respondents between 15 and 64 years old and excluding pensioners and people who are too young to work. First, let's see the summary statistics for the variable `agea`:
 
 ```r
 summary(df_cleaned$agea)
@@ -234,8 +234,10 @@ Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's
   </pre>
 </details>
 
+Then we can filter out the values we are not interested in using our function `filter()`:
+
 ```r
-df_cleaned <- filter(df_cleaned, agea>=15 & agea<=65)
+df_cleaned <- filter(df_cleaned, agea>=15 & agea<=64)
 summary(df_cleaned$agea)
 ```
 <details>
@@ -246,7 +248,7 @@ summary(df_cleaned$agea)
   </pre>
 </details>
 
-## Create variable conditional to another variable
+## Create a variable conditional on the values from another variable
 
 ```r
 df_cleaned<-mutate(df_cleaned, no_vote_18 =ifelse(vote==3 & agea<18, 1, 0))
