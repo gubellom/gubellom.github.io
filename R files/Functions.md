@@ -39,10 +39,6 @@ In our example, we need to take the `tabulate` command built into the previous G
 ```r
 ### TABULATE COMMAND if labels are associated to values:: tab_labels
 tabulate <- function(var) {
-# Add library warnings
-  if (!require("haven", quietly = TRUE)) {
-  stop("Package 'haven' is required but not installed.")
-}
   labels <- attr(var, "labels")
   response_labels <- names(labels)
   polintr_factor <- factor(as_factor(var))
@@ -106,6 +102,11 @@ Notice that the library warning below is redundant in our case, as we need the l
   stop("Package 'haven' is required but not installed.")
 }
 ```
+
+# Add library warnings
+  if (!require("haven", quietly = TRUE)) {
+  stop("Package 'haven' is required but not installed.")
+}
 --->
 
 Go back to the [Introduction webpage ↩ ](https://gubellom.github.io/michelegubello_Introduction/)
