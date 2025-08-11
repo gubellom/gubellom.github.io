@@ -290,6 +290,7 @@ The result is straightforward as the number of observations drop:
   </pre>
 </details>
 
+Go back to the [Introduction webpage ↩ ](https://gubellom.github.io/michelegubello_Introduction/)
 
 
 
