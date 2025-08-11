@@ -257,6 +257,17 @@ df_cleaned<-mutate(df_cleaned, no_vote_18 =ifelse(vote==3 & agea<18, 1, 0))
 tabulate(df_cleaned$no_vote_18)
 ```
 
+<details>
+  <summary>[Output]</summary>
+  <pre>
+  Response Frequency Percentage Cumulative
+1        0     32493      96.67      96.67
+2        1      1119       3.33     100.00
+3     <NA>         2       0.01     100.01
+4    Total     33614     100.01         NA
+  </pre>
+</details>
+  
 ## Basic operations
 
 We transform age with simple operations:
