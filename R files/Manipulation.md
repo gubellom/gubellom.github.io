@@ -234,7 +234,7 @@ Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's
   </pre>
 </details>
 
-Then we can filter out the values we are not interested in using our function `filter()`:
+We can then filter out the values we are not interested in by using our `filter()` function:
 
 ```r
 df_cleaned <- filter(df_cleaned, agea>=15 & agea<=64)
@@ -243,12 +243,14 @@ summary(df_cleaned$agea)
 <details>
   <summary>[Output]</summary>
   <pre>
- Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
-15.00   30.00   43.00   41.96   54.00   65.00 
+Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+15.00   30.00   42.00   41.42   53.00   64.00 
   </pre>
 </details>
 
 ## Create a variable conditional on the values from another variable
+
+Sometimes we want to keep only the values of a variable `var1` that depend on specific values of another variable `var2`. We can do this by combining the `mutate()` function with the `ifelse()` function. For example, in the example below, we want to see how many people under the age of 18 did not vote because they were classified as *Not eligible to vote*. To do so, we write:
 
 ```r
 df_cleaned<-mutate(df_cleaned, no_vote_18 =ifelse(vote==3 & agea<18, 1, 0))
