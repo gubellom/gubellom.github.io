@@ -181,7 +181,7 @@ tabulate(df_cleaned$education)
   </pre>
 </details>
 
-We can now relabel the values associated with each response. We choose three simple labels: *Education: lower*, *Education: middle* and *Education: higher*.
+We can now relabel the values associated with each response. We choose three simple labels: *Education: lower*, *Education: middle* and *Education: higher*. 
   
 ```r
 df_cleaned <- df_cleaned %>%
@@ -204,6 +204,18 @@ tabulate(df_cleaned$education)
 5             Total     44387     100.00         NA
   </pre>
 </details>
+
+The above code applies the `mutate()` function to modify the values in `education`. Precisely, `df_cleaned %>% mutate(education = ...)` can be read as *Take the dataset `df_cleaned` and then (`%>%`) mutate the variable `education`)*. Then, we use `case_when()`. This function modifies (or creates) new variables based on multiple conditions (e.g., *If `education` is 1, it assigns the label "Education: lower"*):
+
+```r
+case_when(
+condition1 ~ value1,
+condition2 ~ value2,
+...,
+TRUE ~ default_value  
+)
+```
+Finally, `TRUE ~ default_value` is the equivalent of an `else` statement. Namely, if none of the above conditions are met, the code assigns NA of type character.
 
 
 ## Keep a subset of the original data that meets certain conditions
