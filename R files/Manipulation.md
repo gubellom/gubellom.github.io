@@ -13,7 +13,6 @@ This page guides you through basic data cleaning methods in R, using clear and p
 - **Generate and recode categorical variables**, including grouping values and adding descriptive labels.  
 - **Filter data** based on conditions (similar to Stata’s `keep if`).  
 - **Create variables conditionally** on other variables' values.  
-- Perform **basic arithmetic operations** on variables.  
 - **Handle missing values** by removing rows with `NA`s in key fields.  
 
 By the end of this tutorial, you will know how to clean raw data. You will do this using R's `dplyr` library, which you can load into your R session by running the following command:
@@ -263,11 +262,45 @@ tabulate(df_cleaned$no_vote_18)
   Response Frequency Percentage Cumulative
 1        0     32493      96.67      96.67
 2        1      1119       3.33     100.00
-3     <NA>         2       0.01     100.01
+3       NA         2       0.01     100.01
 4    Total     33614     100.01         NA
   </pre>
 </details>
   
+## Remove all observations with missing values in one variable.
+
+We drop all rows where `vote` is missing to ensure a clean dataset for analysis.
+
+```r
+df_cleaned <- filter(df_cleaned, !is.na(vote))
+tabulate(df_cleaned$vote)
+```
+
+
+<details>
+  <summary>[Output]</summary>
+  <pre>
+              Response Frequency Percentage Cumulative
+1                  Yes     22766      66.16      66.16
+2                   No      7786      22.63      88.79
+3 Not eligible to vote      3504      10.18      98.97
+4              Refusal       188       0.55      99.52
+5           Don't know       159       0.46      99.98
+6            No answer         5       0.01      99.99
+7                Total     34408      99.99         NA
+  </pre>
+</details>
+
+
+
+
+
+
+
+
+
+
+<!---
 ## Basic operations
 
 We transform age with simple operations:
@@ -294,27 +327,4 @@ Min. 1st Qu.  Median    Mean 3rd Qu.    Max.
 1500    3000    4300    4196    5400    6500 
   </pre>
 </details>
-
-## Remove all the missing values row for vote
-
-We drop all rows where `vote` is missing to ensure a clean dataset for analysis.
-
-```r
-df_cleaned <- filter(df_cleaned, !is.na(vote))
-tabulate(df_cleaned$vote)
-```
-
-
-<details>
-  <summary>[Output]</summary>
-  <pre>
-              Response Frequency Percentage Cumulative
-1                  Yes     22766      66.16      66.16
-2                   No      7786      22.63      88.79
-3 Not eligible to vote      3504      10.18      98.97
-4              Refusal       188       0.55      99.52
-5           Don't know       159       0.46      99.98
-6            No answer         5       0.01      99.99
-7                Total     34408      99.99         NA
-  </pre>
-</details>
+--->
