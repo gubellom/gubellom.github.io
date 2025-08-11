@@ -255,39 +255,38 @@ Sometimes we want to keep only the values of a variable `var1` that depend on sp
 df_cleaned<-mutate(df_cleaned, no_vote_18 =ifelse(vote==3 & agea<18, 1, 0))
 tabulate(df_cleaned$no_vote_18)
 ```
+This time, the `tabulate()` function rounds numbers to three decimal places:
 
 <details>
   <summary>[Output]</summary>
   <pre>
   Response Frequency Percentage Cumulative
-1        0     32493      96.67      96.67
-2        1      1119       3.33     100.00
-3       NA         2       0.01     100.01
-4    Total     33614     100.01         NA
+1        0     32493     96.665     96.665
+2        1      1119      3.329     99.994
+3       NA         2      0.006    100.000
+4    Total     33614    100.000         NA
   </pre>
 </details>
   
 ## Remove all observations with missing values in one variable.
 
-We drop all rows where `vote` is missing to ensure a clean dataset for analysis.
+Sometimes, when cleaning our data, we need to drop all missing values. In Stata, this can be done with `drop if missing(var)`. In R, we can use the `filter()` function together with `!is.na()` (meaning *it’s not a missing value*). In this example, we drop all the rows where `vote` is missing to ensure a clean dataset for analysis.
+
 
 ```r
 df_cleaned <- filter(df_cleaned, !is.na(vote))
 tabulate(df_cleaned$vote)
 ```
-
+The result is straightforward as the number of observations drop:
 
 <details>
   <summary>[Output]</summary>
   <pre>
               Response Frequency Percentage Cumulative
-1                  Yes     22766      66.16      66.16
-2                   No      7786      22.63      88.79
-3 Not eligible to vote      3504      10.18      98.97
-4              Refusal       188       0.55      99.52
-5           Don't know       159       0.46      99.98
-6            No answer         5       0.01      99.99
-7                Total     34408      99.99         NA
+1                  Yes     22113      66.47      66.47
+2                   No      7666      23.04      89.51
+3 Not eligible to vote      3490      10.49     100.00
+4                Total     33269     100.00         NA
   </pre>
 </details>
 
