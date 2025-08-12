@@ -290,6 +290,11 @@ The result is straightforward as the number of observations drop:
   </pre>
 </details>
 
+<!--- 
+df_cleaned <- df_cleaned %>%
+  filter(if_all(c(vote, age, income), ~ !is.na(.)))
+--->
+
 Go back to the [Introduction webpage ↩ ](https://gubellom.github.io/michelegubello_Introduction/)
 
 
