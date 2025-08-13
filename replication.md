@@ -1,5 +1,5 @@
 ---
-permalink:  "/michelegubello_replication/"
+permalink:  "/research/"
 layout: page
 title: "My research"
 ---
