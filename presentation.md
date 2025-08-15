@@ -7,6 +7,16 @@ permalink: "/"
   <meta name="google-site-verification" content="VwKxZ5CBLhIcZXzI63qLFH1Hf-oeVN8g6N5vHHBaRAs" />
 </head>
 
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XSH3BVKG0H"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-XSH3BVKG0H');
+</script>
+
  <div style="display: flex; align-items: center;">
   <div style="flex: 1;">
     <img src="https://raw.githubusercontent.com/gubellom/gubellom.github.io/main/profile.JPG" alt="My Photo" style="width:200px; border-radius:50%;">
