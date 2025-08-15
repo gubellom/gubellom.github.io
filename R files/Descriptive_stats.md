@@ -1,6 +1,6 @@
 ---
 layout: page
-title: ""
+title: "Summary Statistics in R"
 permalink: "/descriptive_stats/"
 ---
 <head>
