@@ -1,6 +1,6 @@
 ---
 layout: page
-title: ""
+title: "Functions in R"
 permalink: "/functions/"
 ---
 <head>
