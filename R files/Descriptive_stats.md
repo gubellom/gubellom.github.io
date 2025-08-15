@@ -3,7 +3,17 @@ layout: page
 title: ""
 permalink: "/descriptive_stats/"
 ---
+<head>
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XSH3BVKG0H"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
+  gtag('config', 'G-XSH3BVKG0H');
+</script>
+</head>
 <!-- <div style="display: flex; align-items: center;">
   <div style="flex: 1;">
     <img src="https://github.com/gubellom/gubellom.github.io/blob/master/profile.JPG?raw=true" alt="My Photo" style="width:200px; border-radius:50%;">
