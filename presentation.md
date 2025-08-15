@@ -5,9 +5,7 @@ permalink: "/"
 ---
 <head>
   <meta name="google-site-verification" content="VwKxZ5CBLhIcZXzI63qLFH1Hf-oeVN8g6N5vHHBaRAs" />
-</head>
-
-<!-- Google tag (gtag.js) -->
+  <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-XSH3BVKG0H"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -16,6 +14,9 @@ permalink: "/"
 
   gtag('config', 'G-XSH3BVKG0H');
 </script>
+
+</head>
+
 
  <div style="display: flex; align-items: center;">
   <div style="flex: 1;">
