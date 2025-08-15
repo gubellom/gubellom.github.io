@@ -1,6 +1,6 @@
 ---
 layout: page
-title: ""
+title: "Tabulate in R"
 permalink: "/tabulate/"
 ---
 <head>
