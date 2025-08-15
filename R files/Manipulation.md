@@ -3,7 +3,17 @@ layout: page
 title: ""
 permalink: "/datacleaning/"
 ---
+<head>
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XSH3BVKG0H"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
+  gtag('config', 'G-XSH3BVKG0H');
+</script>
+</head>
 # Data cleaning
 
 This page guides you through basic data cleaning methods in R, using clear and practical examples. As you follow along, you will see how each technique works and why it is useful for preparing your data for analysis. You will learn how to:
