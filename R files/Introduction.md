@@ -4,7 +4,17 @@ permalink: "/michelegubello_Introduction/"
 title: "R for data analysis"
 layout: page
 ---
+<head>
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XSH3BVKG0H"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
+  gtag('config', 'G-XSH3BVKG0H');
+</script>
+</head>
 
 # Introduction
 
