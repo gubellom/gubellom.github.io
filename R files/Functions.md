@@ -3,6 +3,18 @@ layout: page
 title: ""
 permalink: "/functions/"
 ---
+<head>
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XSH3BVKG0H"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-XSH3BVKG0H');
+</script>
+</head>
+
 # How to create a function in R, and why should you do it?
 
 Creating functions in R is helpful because it makes your code easier to understand, reuse, and modify. When carrying out the same task repeatedly, a function lets you write the code once and reuse it whenever needed. This saves time and helps to reduce errors. Functions also allow you to keep your code clear and organised by shortening it and dividing it into smaller sections. Giving each function a meaningful name makes it easier (for you and others) to understand your code. Moreover, if you need to modify your code, you can modify the function itself once, rather than searching for multiple lines of code and making changes to each of them. In other words, functions save you time.
