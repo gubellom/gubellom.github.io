@@ -302,10 +302,35 @@ The result is straightforward as the number of observations drop:
   </pre>
 </details>
 
-<!--- 
+We can also drop all missing values in our dataset. I present three options here: Option 1) uses the function `if_all(c(var1,var2, ..., varN))` combined with `filter()`. This option is preferable when you are creating a subsample of data (for instance, including only a few specific variables). Option 2) uses `na.omit()`, which drops a row if there are NA values in any of the variables of the dataset. Option 3) does the same. 
+
+```r 
+# Option 1
 df_cleaned <- df_cleaned %>%
-  filter(if_all(c(vote, age, income), ~ !is.na(.)))
---->
+  filter(if_all(c(vote, agea, eisced), ~ !is.na(.)))
+
+# Option 2
+df_cleaned <- na.omit(df_cleaned)
+
+# Option 3
+df_cleaned <- df_cleaned[complete.cases(df_cleaned), ]
+```
+For options 2) and 3), if you want to obtain the same result as option 1), it is enough to select another subdataset from `df_cleaned' (or from the original `df'). For instance, you can select:
+
+```r
+df3 <-select(df, vote, agea, eisced)
+df_cleaned <- na.omit(df3)
+summary(df_cleaned$agea)
+```
+<details>
+  <summary>[Output]</summary>
+  <pre>
+   # Summary shows no NA values exist 
+  Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+  15.00   34.00   49.00   49.13   64.00  100.00 
+  </pre>
+</details>
+
 
 Go back to the [Introduction webpage ↩ ](https://gubellom.github.io/michelegubello_Introduction/)
 
