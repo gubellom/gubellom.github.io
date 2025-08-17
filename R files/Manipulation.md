@@ -304,7 +304,8 @@ The result is straightforward as the number of observations drop:
 
 ## Remove all rows with missing values in at least one variable.
 
-We can also drop all missing values in our dataset. I present three options here: Option 1) uses the function `if_all(c(var1,var2, ..., varN))` combined with `filter()`. This option is preferable when you are creating a subsample of data (for instance, including only a few specific variables). Option 2) uses `na.omit()`, which drops a row if there are NA values in any of the variables of the dataset. Option 3) does the same. 
+We can also drop all missing values in our dataset. I present three options here: Option 1 uses the function `if_all(c(var1, var2, ..., varN))` combined with `filter()`, which is useful when creating a subsample of the data (for instance, including only a few specific variables). Option 2 uses `na.omit()`, which drops a row if there are NA values in any variable of the dataset. Option 3 does the same as Option 2.
+
 
 ```r 
 # Option 1
@@ -317,19 +318,24 @@ df_cleaned <- na.omit(df_cleaned)
 # Option 3
 df_cleaned <- df_cleaned[complete.cases(df_cleaned), ]
 ```
-For options 2) and 3), if you want to obtain the same result as option 1), it is enough to select another subdataset from `df_cleaned' (or from the original `df'). For instance, you can select:
+For options 2) and 3), if you want to obtain the same result as option 1), it is enough to select another subdataset from `df_cleaned' (or from the original `df'). For instance, you can select `vote`, `agea`, `eisced` from the original dataset `df` and obtain the same results as option 1:
 
 ```r
 df3 <-select(df, vote, agea, eisced)
 df_cleaned <- na.omit(df3)
-summary(df_cleaned$agea)
+summary(df_cleaned)
 ```
 <details>
   <summary>[Output]</summary>
   <pre>
    # Summary shows no NA values exist 
-  Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
-  15.00   34.00   49.00   49.13   64.00  100.00 
+     vote            agea            eisced      
+ Min.   :1.000   Min.   : 15.00   Min.   : 1.000  
+ 1st Qu.:1.000   1st Qu.: 34.00   1st Qu.: 2.000  
+ Median :1.000   Median : 49.00   Median : 4.000  
+ Mean   :1.382   Mean   : 49.13   Mean   : 4.111  
+ 3rd Qu.:2.000   3rd Qu.: 64.00   3rd Qu.: 5.000  
+ Max.   :3.000   Max.   :100.00   Max.   :55.000  
   </pre>
 </details>
 
