@@ -302,6 +302,8 @@ The result is straightforward as the number of observations drop:
   </pre>
 </details>
 
+## Remove all rows with missing values in at least one variable.
+
 We can also drop all missing values in our dataset. I present three options here: Option 1) uses the function `if_all(c(var1,var2, ..., varN))` combined with `filter()`. This option is preferable when you are creating a subsample of data (for instance, including only a few specific variables). Option 2) uses `na.omit()`, which drops a row if there are NA values in any of the variables of the dataset. Option 3) does the same. 
 
 ```r 
