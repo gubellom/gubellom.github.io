@@ -25,7 +25,7 @@ permalink: "/"
   <div style="flex: 2; margin-left: 20px;">
     <p>
     
-I am a postdoctoral research fellow at the <a href="https://www.esri.ie/people/michele-gubello">Economic and Social Research Institute, Dublin</a>, a Visiting Research Fellow at Trinity College Dublin and a member of the <a href="https://euromod-web.jrc.ec.europa.eu/overview/country-by-country/detail?id=10">Irish EUROMOD Team</a>. In 2025, I was also an external lecturer in Public Economics at Maynooth University. <!--<br>
+I am a postdoctoral research fellow at the Economic and Social Research Institute (Dublin), a Visiting Research Fellow at Trinity College Dublin and a member of the Irish EUROMOD Team. In 2025, I was also an external lecturer in Public Economics at Maynooth University. <!--<br>
 <br> -->
 </p>
   </div>
@@ -39,6 +39,6 @@ You can contact me at: michele [dot] gubello [at] esri [dot] ie
 
 <!--| <a href="https://gubellom.github.io/michelegubello_replication">RESEARCH</a> | <a href="https://shorturl.at/61bwb">GOOGLE SCHOLAR</a> | <a href="https://gubellom.github.io/michelegubello_Introduction/">R FOR DATA ANALYSIS</a> |-->
 
+<!-- <a href="https://www.esri.ie/people/michele-gubello">Economic and Social Research Institute, Dublin</a>, -->
 
-
-
+<!-- <a href="https://euromod-web.jrc.ec.europa.eu/overview/country-by-country/detail?id=10">Irish EUROMOD Team</a>. -->
