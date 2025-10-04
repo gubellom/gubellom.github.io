@@ -26,7 +26,7 @@ This page guides you through basic data cleaning methods in R, using clear and p
 - **Filter data** based on conditions (similar to Stata’s `keep if`).  
 - **Create variables conditionally** on other variables' values.  
 - **Handle missing values** by removing rows with `NA`s in key fields.
-- **Averaging a variable* by groups.
+- **Averaging variables** by groups.
 
 By the end of this tutorial, you will know how to clean raw data. You will do this using R's `dplyr` library, which you can load into your R session by running the following command:
 ```r
