@@ -25,7 +25,8 @@ This page guides you through basic data cleaning methods in R, using clear and p
 - **Generate and recode categorical variables**, including grouping values and adding descriptive labels.  
 - **Filter data** based on conditions (similar to Stata’s `keep if`).  
 - **Create variables conditionally** on other variables' values.  
-- **Handle missing values** by removing rows with `NA`s in key fields.  
+- **Handle missing values** by removing rows with `NA`s in key fields.
+- **Averaging a variable* by groups.
 
 By the end of this tutorial, you will know how to clean raw data. You will do this using R's `dplyr` library, which you can load into your R session by running the following command:
 ```r
@@ -339,6 +340,68 @@ summary(df_cleaned)
   </pre>
 </details>
 
+## Average a variable by group
+
+Sometimes it is useful to average a variable by group. For instance, it can be interesting to see the average age in each country of our sample. To do so, we can use the command `group_by()`. First of all, we select the variables we need from our original dataset to simplify our original sample `df` and save them under the dataset named `df_avg`:
+
+```r
+df_avg<-select(df, agea, cntry)
+```
+
+We can then create a variable with the average age by the country of residence (`cntry`) using the `group_by()` command. In doing so, we exclude the missing values for the age variable (`agea`), using the command `na.rm = TRUE`:
+
+```r
+df_avg <- df_avg %>%
+  group_by(cntry) %>%
+  mutate(avg_age = mean(agea, na.rm = TRUE)) # exlcude missing values in the computation of the average
+```
+
+To the summary statistics by country for the variable `agea`, it is enough to combine `group_by()` with `summarise()`:
+
+```r
+#Create values for table
+avg_age_tab <- df_avg %>%
+  group_by(cntry) %>%
+  summarise(
+    mean_age = mean(agea, na.rm = TRUE),  #average by country
+    n = n()                               # Number of observations by country
+  )
+
+#Print table
+print(avg_age_tab, n = Inf)    # n=Inf shows all the columns
+```
+
+<details>
+  <summary>[Output]</summary>
+  <pre>
+# A tibble: 23 × 3
+   cntry mean_age     n
+   <chr>    <dbl> <int>
+ 1 AT        49.7  2010
+ 2 BE        47.0  1766
+ 3 CH        47.8  1525
+ 4 CZ        46.1  2269
+ 5 DE        48.6  2852
+ 6 EE        49.6  2019
+ 7 ES        49.6  1958
+ 8 FI        50.1  1925
+ 9 FR        52.4  2070
+10 GB        51.4  1959
+11 HU        50.8  1614
+12 IE        50.2  2757
+13 IL        46.9  2557
+14 IS        48.7   880
+15 IT        48.8  2626
+16 LT        49.9  2122
+17 NL        51.2  1681
+18 NO        47.0  1545
+19 PL        47.2  1694
+20 PT        52.0  1270
+21 RU        46.7  2430
+22 SE        51.6  1551
+23 SI        49.1  1307
+  </pre>
+</details>
 
 Go back to the [Introduction webpage ↩ ](https://gubellom.github.io/michelegubello_Introduction/)
 
