@@ -40,6 +40,6 @@ This is an ongoing project; please check back periodically for new content or up
 
 3) [How to create a function in R, and why should you do it? ](https://gubellom.github.io/functions/)
 
-4) [Data cleaning (in progress) ](https://gubellom.github.io/datacleaning/)
+4) [Data cleaning](https://gubellom.github.io/datacleaning/)
 
 
