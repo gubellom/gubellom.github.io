@@ -378,7 +378,6 @@ print(avg_age_tab, n = Inf)    # n=Inf shows all the columns
   <pre>
     
    cntry mean_age     n
-   <chr>    <dbl> <int>
  1 AT        49.7  2010
  2 BE        47.0  1766
  3 CH        47.8  1525
