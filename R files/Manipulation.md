@@ -374,7 +374,7 @@ print(avg_age_tab, n = Inf)    # n=Inf shows all the columns
 
 <details>
   <summary>[Output]</summary>
-  
+
   <pre>
     
    cntry mean_age     n
@@ -403,12 +403,18 @@ print(avg_age_tab, n = Inf)    # n=Inf shows all the columns
 22 SE        51.6  1551
 23 SI        49.1  1307
      
-  </pre>
+</pre>
 </details>
 
 
 
-<!-- blank line above is important -->
+<!-- blank line above is important 
+
+
+TEXT TO FIX LAYOUT
+
+
+-->
 
 Go back to the [Introduction webpage ↩ ](https://gubellom.github.io/michelegubello_Introduction/)
 
