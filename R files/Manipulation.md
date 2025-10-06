@@ -373,7 +373,9 @@ print(avg_age_tab, n = Inf)    # n=Inf shows all the columns
 
 <details>
   <summary>[Output]</summary>
+  
   <pre>
+    
    cntry mean_age     n
    <chr>    <dbl> <int>
  1 AT        49.7  2010
@@ -399,6 +401,7 @@ print(avg_age_tab, n = Inf)    # n=Inf shows all the columns
 21 RU        46.7  2430
 22 SE        51.6  1551
 23 SI        49.1  1307
+     
   </pre>
 </details>
 
