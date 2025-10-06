@@ -371,39 +371,7 @@ avg_age_tab <- df_avg %>%
 print(avg_age_tab, n = Inf)    # n=Inf shows all the columns
 ```
 
-<details>
-  <summary>[Output]</summary>
-  
-  <pre>
-    
-   cntry mean_age     n
-   <chr>    <dbl> <int>
- 1 AT        49.7  2010
- 2 BE        47.0  1766
- 3 CH        47.8  1525
- 4 CZ        46.1  2269
- 5 DE        48.6  2852
- 6 EE        49.6  2019
- 7 ES        49.6  1958
- 8 FI        50.1  1925
- 9 FR        52.4  2070
-10 GB        51.4  1959
-11 HU        50.8  1614
-12 IE        50.2  2757
-13 IL        46.9  2557
-14 IS        48.7   880
-15 IT        48.8  2626
-16 LT        49.9  2122
-17 NL        51.2  1681
-18 NO        47.0  1545
-19 PL        47.2  1694
-20 PT        52.0  1270
-21 RU        46.7  2430
-22 SE        51.6  1551
-23 SI        49.1  1307
-     
-  </pre>
-</details>
+
 
 <!-- blank line above is important -->
 
