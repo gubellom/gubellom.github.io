@@ -408,7 +408,6 @@ print(avg_age_tab, n = Inf)    # n=Inf shows all the columns
 
 
 
-
 <!-- blank line above is important -->
 
 Go back to the [Introduction webpage ↩ ](https://gubellom.github.io/michelegubello_Introduction/)
