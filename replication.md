@@ -33,11 +33,11 @@ title: "My research"
 <!--     - Previously circulated as: *Weakly Progressive: Disproportionate Higher Education Attendance and the Structure of Income Taxes*, 2022, [[UCD Centre for Economic Research Working Paper Series 2022,  WP22/26](https://hdl.handle.net/10419/296672)] -->
 - Civic capital and the political economy of progressive taxation (*draft available soon*)
 - Economic insecurity, greenlash and the demand for climate policies in Europe (with C. Keane) [[SSRN working paper](http://dx.doi.org/10.2139/ssrn.5111562 )] 
-- Neither a Panacea Nor a Cheap Solution: A Universal Basic Income Analysis for Ireland (with T. Kakoulidou) (*Draft available upon request*)
 
 
 ## Other ongoing work
 - Desired Hours Worked Over the Business Cycle: Stylised Facts for European Countries (with [D. Tuda](https://sites.google.com/view/doratuda)) (*draft available soon*)
+- Neither a Panacea Nor a Cheap Solution: A Universal Basic Income Analysis for Ireland (with T. Kakoulidou and A. Simon) (*Draft available upon request*)
 
 
 
