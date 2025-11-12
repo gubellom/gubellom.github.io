@@ -17,14 +17,14 @@ permalink: "/"
 
 </head>
 
-
+<!--
  <div style="display: flex; align-items: center;">
   <div style="flex: 1;">
     <img src="https://raw.githubusercontent.com/gubellom/gubellom.github.io/main/profile.JPG" alt="My Photo" style="width:200px; border-radius:50%;">
   </div>
   <div style="flex: 2; margin-left: 20px;">
     <p>
-    
+ -->   
 I am a postdoctoral research fellow at the Economic and Social Research Institute (Dublin), a Visiting Research Fellow at Trinity College Dublin and a member of the Irish EUROMOD Team. In 2025, I was also an external lecturer in Public Economics at Maynooth University. <!--<br>
 <br> -->
 </p>
