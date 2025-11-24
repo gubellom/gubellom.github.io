@@ -1,6 +1,6 @@
 ---
 
-permalink: "/michelegubello_Introduction/"
+permalink: "/michelegubello_R_for_datanalysis/"
 title: "R for data analysis"
 layout: page
 ---
