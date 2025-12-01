@@ -34,9 +34,6 @@ I am a postdoctoral research fellow at the Economic and Social Research Institut
 </div>
  -->   
  
-My research focuses on the intersection of public economics, political economy, health and socioeconomics. In my research, I combine economic theory, econometric and microsimulation analysis to explore how institutions, public policy design, and social capital shape socioeconomic and political outcomes.
-
-
 <!--On this website, I will mostly share my research results.-->
 You can contact me at: michele [dot] gubello [at] esri [dot] ie
 
