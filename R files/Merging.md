@@ -28,8 +28,10 @@ Henceforth, I show how to:
 
 In this analysis, I will use three datasets:
 
-1) The ESS8 as primary dataset, referred as to `df`.
-2) 
+1) The ESS8 as primary dataset, labelled as `df`.
+2) A dataset with average age by country, labelled as `df_avg`.
+3) A dataset with individual-level values for the variable "social trust", rescaled from [0,10] to [0,1] scale. The dataset is labeled as `df_trust`.
+4) 
 
 
 
