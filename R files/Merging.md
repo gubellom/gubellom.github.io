@@ -31,8 +31,9 @@ In this analysis, I will use three datasets:
 1) The usual ESS8 (from <a href="https://ess.sikt.no/en/">European Social Survey website</a>) as primary dataset, labelled as `df`.
 2) A dataset with average age by country, labelled as `df_avg`.
 3) A dataset with individual-level values for the variable "social trust", rescaled from [0,10] to a [0,1] scale. The dataset is labeled as `df_trust`.
-4) 
+4) A dataset with a sample of people from the country "Austria", labelled as `df_append_austria`.
 
+All datasets and code reproducing them, can be found in this <a href="https://github.com/gubellom/r_dataset_exercises/tree/main">Github directory</a>).
 
 
 
