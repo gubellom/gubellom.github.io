@@ -35,5 +35,7 @@ In this analysis, I will use three datasets:
 
 All datasets and R code generating them can be found in this <a href="https://github.com/gubellom/r_dataset_exercises/tree/main">Github directory</a>.
 
+# Merge one-to-one.
 
+One can merge two datasets - let's say `Dataset_1` and `Dataset_2`- in a one-to-one format when the same observation appears in both datasets only once. For instance, assume you have two datasets. The two datasets share the same observations to which it has been assigned a unique identifier number, but different variables. In one dataset you have information about age, and in the other information about education. You can merge the two datasets to have one unique dataset showing the age and education level of each observation.
 
