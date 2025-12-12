@@ -20,9 +20,9 @@ layout: page
 
 **Welcome!**
 
-This page is an introduction to R for users who have some basic experience with STATA. You'll find a few files here designed to provide simple tools for data analysis, similar to those used in quantitative social science research.
+This page is an introduction to R for users with some basic experience with Stata. You'll find a few files here designed to provide simple tools for data analysis, similar to those used in quantitative social science research.
 
-The goal is to share small code snippets that can help you generate various outputs quickly and easily. In R, there are often many different ways to achieve the same result. The scripts provided here may not always be the most efficient, but they aim to be clear, intuitive and practical. I’ll continue to improve and update them whenever I have some free time.
+The goal is to share small code snippets that can help you generate various outputs easily. In R, there are often many different ways to achieve the same result. The scripts provided here may not always be the most efficient, but they aim to be clear, intuitive, and practical. I’ll continue to improve and update them whenever I have some free time.
 
 For all the examples, I will import the ESS 8 dataset, which you can find in the <a href="https://ess.sikt.no/en/">European Social Survey website</a>. The dataset format is in STATA, so I will import it with the name of `df` using the function `read_dta()`:
 
