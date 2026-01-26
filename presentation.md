@@ -99,7 +99,7 @@ You can contact me at: michele [dot] gubello [at] esri [dot] ie
       <i class="fa-brands fa-linkedin"></i>
     </a>
 
-    <a href="insertemail">
+    <a href=" ">
       <i class="fa-solid fa-envelope"></i>
     </a>
   </div>
