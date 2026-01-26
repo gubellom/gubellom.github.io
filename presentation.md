@@ -27,7 +27,6 @@ permalink: "/"
 
 
 
- /* Presentation text */
 I am a postdoctoral research fellow at the Economic and Social Research Institute (Dublin), a Visiting Research Fellow at Trinity College Dublin and a member of the Irish EUROMOD Team.  <!--<be>
 <br> -->
 
