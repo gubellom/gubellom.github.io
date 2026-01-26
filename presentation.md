@@ -17,7 +17,7 @@ permalink: "/"
 
 </head>
 
-<!-- ///Profile picture///
+<!--  /* Profile picture */
  <div style="display: flex; align-items: center;">
   <div style="flex: 1;">
     <img src="https://raw.githubusercontent.com/gubellom/gubellom.github.io/main/profile.JPG" alt="My Photo" style="width:200px; border-radius:50%;">
@@ -27,7 +27,7 @@ permalink: "/"
 
 
 
-<!-- /// Presentation text ///
+<!-- /* Presentation text */
 I am a postdoctoral research fellow at the Economic and Social Research Institute (Dublin), a Visiting Research Fellow at Trinity College Dublin and a member of the Irish EUROMOD Team.  <!--<be>
 <br> -->
 
