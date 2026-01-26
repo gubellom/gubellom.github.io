@@ -90,8 +90,6 @@ You can contact me at: michele [dot] gubello [at] esri [dot] ie
 </head>
 <body>
 
-  <h1>HOME</h1>
-
   <div class="icons">
     <a href="https://github.com/gubellom" target="_blank">
       <i class="fa-brands fa-github"></i>
