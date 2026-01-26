@@ -47,3 +47,75 @@ You can contact me at: michele [dot] gubello [at] esri [dot] ie
 <!-- <a href="https://www.esri.ie/people/michele-gubello">Economic and Social Research Institute, Dublin</a>, -->
 
 <!-- <a href="https://euromod-web.jrc.ec.europa.eu/overview/country-by-country/detail?id=10">Irish EUROMOD Team</a>. -->
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Home</title>
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-family: Arial, sans-serif;
+      background-color: #ffffff;
+    }
+
+    h1 {
+      font-size: 80px;
+      margin-bottom: 40px;
+      letter-spacing: 4px;
+    }
+
+    .icons {
+      display: flex;
+      gap: 40px;
+    }
+
+    .icons a {
+      font-size: 40px;
+      color: #333;
+      text-decoration: none;
+      transition: transform 0.2s, color 0.2s;
+    }
+
+    .icons a:hover {
+      transform: scale(1.2);
+      color: #4078c0;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>HOME</h1>
+
+  <div class="icons">
+    <a href="https://github.com/yourusername" target="_blank">
+      <i class="fa-brands fa-github"></i>
+    </a>
+
+    <a href="https://linkedin.com/in/yourusername" target="_blank">
+      <i class="fa-brands fa-linkedin"></i>
+    </a>
+
+    <a href="mailto:youremail@example.com">
+      <i class="fa-solid fa-envelope"></i>
+    </a>
+  </div>
+
+</body>
+</html>
+
