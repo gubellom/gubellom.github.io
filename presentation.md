@@ -71,6 +71,8 @@ You can contact me at: michele [dot] gubello [at] esri [dot] ie
 
     .icons {
       display: flex;
+      justify-content: center;  /* centers icons horizontally */
+      align-items: center;      /* centers icons vertically */
       gap: 40px;
     }
 
