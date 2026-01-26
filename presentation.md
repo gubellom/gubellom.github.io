@@ -61,7 +61,7 @@ You can contact me at: michele [dot] gubello [at] esri [dot] ie
       justify-content: center;
       align-items: center;
       font-family: Arial, sans-serif;
-      background-color: #ffffff;
+      background-color: #2A2D33;
     }
 
     h1 {
@@ -93,15 +93,15 @@ You can contact me at: michele [dot] gubello [at] esri [dot] ie
   <h1>HOME</h1>
 
   <div class="icons">
-    <a href="https://github.com/yourusername" target="_blank">
+    <a href="https://github.com/gubellom" target="_blank">
       <i class="fa-brands fa-github"></i>
     </a>
 
-    <a href="https://linkedin.com/in/yourusername" target="_blank">
+    <a href="https://www.linkedin.com/in/michele-gubello-466587167/" target="_blank">
       <i class="fa-brands fa-linkedin"></i>
     </a>
 
-    <a href="mailto:youremail@example.com">
+    <a href="insertemail">
       <i class="fa-solid fa-envelope"></i>
     </a>
   </div>
