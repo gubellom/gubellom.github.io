@@ -40,12 +40,16 @@ I am a postdoctoral research fellow at the Economic and Social Research Institut
  
 <!--On this website, I will mostly share my research results.-->
 You can contact me at: michele [dot] gubello [at] esri [dot] ie
+  <div class="icons">
+    <a href="https://github.com/yourusername" target="_blank">
+      <i class="fa-brands fa-github"></i>
+    </a>
 
+    <a href="https://linkedin.com/in/yourusername" target="_blank">
+      <i class="fa-brands fa-linkedin"></i>
+    </a>
 
-<!--| <a href="https://gubellom.github.io/michelegubello_replication">RESEARCH</a> | <a href="https://shorturl.at/61bwb">GOOGLE SCHOLAR</a> | <a href="https://gubellom.github.io/michelegubello_Introduction/">R FOR DATA ANALYSIS</a> |-->
-
-<!-- <a href="https://www.esri.ie/people/michele-gubello">Economic and Social Research Institute, Dublin</a>, -->
-
-<!-- <a href="https://euromod-web.jrc.ec.europa.eu/overview/country-by-country/detail?id=10">Irish EUROMOD Team</a>. -->
-
-
+    <a href="mailto:youremail@example.com">
+      <i class="fa-solid fa-envelope"></i>
+    </a>
+  </div>
