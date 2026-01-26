@@ -42,7 +42,6 @@ You can contact me at: michele [dot] gubello [at] esri [dot] ie
 -->
 
 
-<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -61,7 +60,7 @@ You can contact me at: michele [dot] gubello [at] esri [dot] ie
       justify-content: center;
       align-items: center;
       font-family: Arial, sans-serif;
-      background-color: #2A2D33;
+      background-color: #161b22;
     }
 
     h1 {
