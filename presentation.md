@@ -34,10 +34,14 @@ I am a postdoctoral research fellow at the Economic and Social Research Institut
 </div>
  -->   
  
+
+See my contacts:
 <!--
-You can contact me at: 
--->
-<p align="center">
+</p>
+  </div>
+</div>
+ -->  
+ <p align="center">
   <a href="https://github.com/USERNAME">
     <img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/github.svg" width="40" />
   </a>
