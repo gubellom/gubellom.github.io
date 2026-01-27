@@ -38,7 +38,7 @@ This is an ongoing project; please check back periodically for new content or up
    
 2) [How to Replicate STATA tabulate command: one-way and two-way tables](https://gubellom.github.io/tabulate/)
 
-3) [How to create a function in R, and why should you do it? ](https://gubellom.github.io/functions/)
+3) [How to create a function in R](https://gubellom.github.io/functions/)
 
 4) [Data cleaning](https://gubellom.github.io/datacleaning/) (Topics: subsample selection, variable generation, data filtering, missing-value handling, group-wise operations)
 
