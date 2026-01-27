@@ -24,8 +24,6 @@ permalink: "/"
   </div>
   <div style="flex: 2; margin-left: 20px;">
     <p> -->
-
-
 <!--
 I am a postdoctoral research fellow at the Economic and Social Research Institute (Dublin), a Visiting Research Fellow at Trinity College Dublin and a member of the Irish EUROMOD Team.  <!--<be>
 <br> -->
@@ -37,7 +35,7 @@ I am a postdoctoral research fellow at the Economic and Social Research Institut
  -->   
  
 <!--
-You can contact me at: michele [dot] gubello [at] esri [dot] ie
+You can contact me at: 
 -->
 
 
@@ -90,12 +88,13 @@ You can contact me at: michele [dot] gubello [at] esri [dot] ie
 </head>
 <body>
 
+  <p class="intro">Find me here</p>
   <div class="icons">
-    <a href="https://github.com/gubellom" target="_blank">
+    <a href="" target="_blank">
       <i class="fa-brands fa-github"></i>
     </a>
 
-    <a href="https://www.linkedin.com/in/michele-gubello-466587167/" target="_blank">
+    <a href="" target="_blank">
       <i class="fa-brands fa-linkedin"></i>
     </a>
 
