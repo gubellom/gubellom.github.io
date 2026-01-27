@@ -66,6 +66,11 @@ You can contact me at:
       letter-spacing: 4px;
     }
 
+    .content {
+      margin-left: 220px;
+      padding: 20px;
+    }
+
     .icons {
       display: flex;
       justify-content: center;  /* centers icons horizontally */
