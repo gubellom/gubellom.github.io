@@ -39,15 +39,16 @@ You can contact me at:
 -->
 <p align="center">
   <a href="https://github.com/USERNAME">
-    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/github.svg?color=white" width="40" />
+    <img src="assets/icons/github-white.svg" width="40" alt="GitHub" />
   </a>
   &nbsp;&nbsp;&nbsp;&nbsp;
   <a href="https://linkedin.com/in/USERNAME">
-    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/linkedin.svg" width="40" />
+    <img src="assets/icons/linkedin-white.svg" width="40" alt="LinkedIn" />
   </a>
   &nbsp;&nbsp;&nbsp;&nbsp;
   <a href="mailto:EMAIL@example.com">
-    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/gmail.svg" width="40" />
+    <img src="assets/icons/gmail-white.svg" width="40" alt="Email" />
   </a>
 </p>
+
 
