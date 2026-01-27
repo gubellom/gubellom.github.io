@@ -34,8 +34,9 @@ I am a postdoctoral research fellow at the Economic and Social Research Institut
 </div>
  -->   
  
+For any query, feel free to contact me.
 
-See my contacts:
+### Contact details
 <!--
 </p>
   </div>
