@@ -37,10 +37,9 @@ I am a postdoctoral research fellow at the Economic and Social Research Institut
 <!--
 You can contact me at: 
 -->
-<img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/github.svg?color=ffffff" />
 <p align="center">
   <a href="https://github.com/USERNAME">
-    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/github.svg" width="40" />
+    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/github.svg/ffffff" width="40" />
   </a>
   &nbsp;&nbsp;&nbsp;&nbsp;
   <a href="https://linkedin.com/in/USERNAME">
