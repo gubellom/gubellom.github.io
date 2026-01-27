@@ -24,7 +24,7 @@ permalink: "/"
   </div>
   <div style="flex: 2; margin-left: 20px;">
     <p> -->
-<!--
+
 I am a postdoctoral research fellow at the Economic and Social Research Institute (Dublin), a Visiting Research Fellow at Trinity College Dublin and a member of the Irish EUROMOD Team.  <!--<be>
 <br> -->
 
@@ -39,76 +39,4 @@ You can contact me at:
 -->
 
 
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Home</title>
 
-  <!-- Font Awesome -->
-  <link rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-
-  <style>
-    body {
-      margin: 0;
-      height: 100vh;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      font-family: Arial, sans-serif;
-      background-color: #161b22;
-    }
-
-    h1 {
-      font-size: 80px;
-      margin-bottom: 40px;
-      letter-spacing: 4px;
-    }
-
-    .content {
-      margin-left: 220px;
-      padding: 20px;
-    }
-
-    .icons {
-      display: flex;
-      justify-content: center;  /* centers icons horizontally */
-      align-items: center;      /* centers icons vertically */
-      gap: 40px;
-    }
-
-    .icons a {
-      font-size: 40px;
-      color: #333;
-      text-decoration: none;
-      transition: transform 0.2s, color 0.2s;
-    }
-
-    .icons a:hover {
-      transform: scale(1.2);
-      color: #4078c0;
-    }
-  </style>
-</head>
-<body>
-
-  <p class="intro">I am a postdoctoral research fellow at the Economic and Social Research Institute (Dublin), a Visiting Research Fellow at Trinity College Dublin and a member of the Irish EUROMOD Team.</p>
-  <div class="icons">
-    <a href="" target="_blank">
-      <i class="fa-brands fa-github"></i>
-    </a>
-
-    <a href="" target="_blank">
-      <i class="fa-brands fa-linkedin"></i>
-    </a>
-
-    <a href=" ">
-      <i class="fa-solid fa-envelope"></i>
-    </a>
-  </div>
-
-</body>
-</html>
-
- 
