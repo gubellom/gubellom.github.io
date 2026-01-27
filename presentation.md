@@ -37,21 +37,17 @@ I am a postdoctoral research fellow at the Economic and Social Research Institut
 For any query, feel free to contact me.
 
 ### Contact details
-<!--
-</p>
-  </div>
-</div>
- -->  
+
  <p align="center">
-  <a href="https://github.com/USERNAME">
+  <a href="https://github.com/gubellom">
     <img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/github.svg" width="40" />
   </a>
   &nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="https://linkedin.com/in/USERNAME">
+  <a href="https://www.linkedin.com/in/michele-gubello-466587167/">
     <img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/linkedin.svg" width="40" />
   </a>
   &nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="mailto:EMAIL@example.com">
+  <a href="mailto:michele.gubello@esri.ie">
     <img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/gmail.svg" width="40" />
   </a>
 </p>
