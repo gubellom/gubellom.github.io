@@ -38,5 +38,17 @@ I am a postdoctoral research fellow at the Economic and Social Research Institut
 You can contact me at: 
 -->
 
-
+<p align="center">
+  <a href="https://github.com/USERNAME">
+    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/github.svg" width="40" />
+  </a>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://linkedin.com/in/USERNAME">
+    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/linkedin.svg" width="40" />
+  </a>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="mailto:EMAIL@example.com">
+    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/gmail.svg" width="40" />
+  </a>
+</p>
 
