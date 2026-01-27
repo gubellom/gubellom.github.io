@@ -39,7 +39,7 @@ You can contact me at:
 -->
 <p align="center">
   <a href="https://github.com/USERNAME">
-    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/github.svg/ffffff" width="40" />
+    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/github.svg?color=white" width="40" />
   </a>
   &nbsp;&nbsp;&nbsp;&nbsp;
   <a href="https://linkedin.com/in/USERNAME">
