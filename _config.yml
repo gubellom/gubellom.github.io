@@ -1,6 +1,6 @@
 # {{ site.title }}
 
-# title: "Home" # "Home" "Michele Gubello"
+title: "Home" # "Home" "Michele Gubello"
 author: "" # "Michele Gubello"
 description: "  "
 permalink: /:title/
@@ -19,7 +19,7 @@ minimal: false             # use a dark header
 
 navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {file: "presentation.md", title: "About me"} #, icon: assets/fontawesome/home.svg
-  - {file: "replication.md", title: "Research"} # , icon: briefcase 
+  - {file: "replication.md", title: "Publications"} # , icon: briefcase 
   - {url: "/michelegubello_Introduction/", title: "R for data analysis"} #, icon: folder-open
  # - {file: "cv.md", title: "CV", icon: envelope }
 
