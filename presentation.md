@@ -47,7 +47,7 @@ For any query, feel free to contact me.
     <img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/linkedin.svg" width="40" />
   </a>
   &nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="mailto:michele.gubello@outlook.com">
+  <a href="mailto:michelegubello@outlook.com">
     <img src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/gmail.svg" width="40" />
   </a>
 </p>
