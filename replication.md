@@ -1,7 +1,7 @@
 ---
 permalink:  "/research/"
 layout: page
-title: "My research"
+title: "Publications"
 ---
 <head>
   <!-- Google tag (gtag.js) -->
@@ -15,14 +15,7 @@ title: "My research"
 </script>
 </head>
 
-
-### Peer-reviewed policy reports  
-- Drivers of Income Inequality in Ireland and Northern Ireland (with K. Doorley and D. Tuda), [ESRI research series](https://www.esri.ie/publications/drivers-of-income-inequality-in-ireland-and-northern-ireland), 2024 (*submitted*)
-
-   - Media coverage: [The Irish Times](https://www.irishtimes.com/politics/2024/10/18/four-fifths-of-northern-irish-household-receive-more-in-benefits-than-they-pay-in-tax/), [RTÉ](https://www.rte.ie/news/business/2024/1018/1476087-income-esri/), Newstalk (Web) ([link 1](https://www.newstalk.com/podcasts/highlights-from-the-hard-shoulder/how-much-would-a-united-ireland-cost), [link 2](https://www.newstalk.com/news/ciara-kelly-united-ireland-will-be-like-a-financial-millstone-around-our-necks-1775307)), [Belfast Telegraph](https://www.belfasttelegraph.co.uk/news/republic-of-ireland/income-inequality-in-ireland-and-northern-ireland-very-similar-study/a2026592143.html), [The Irish News](https://www.irishnews.com/news/northern-ireland/income-inequality-in-ireland-and-northern-ireland-very-similar-study-MLU3CDQYBNERLHCDCPCRGDNUOI/), [Highland Radio (blog)](https://highlandradio.com/2024/10/18/esri-report-finds-income-inequality-very-similar-on-both-sides-of-border/)
- <!--   - Youtube presentation: [https://www.youtube.com/watch?v=iqLa8760Hmo](https://www.youtube.com/watch?v=iqLa8760Hmo) -->
-
-### Academic publications
+### Publications
 - The political economy of in-kind versus cash redistribution in Europe, [International Tax and Public Finance](https://doi.org/10.1007/s10797-025-09908-6), 2025, (with S.M. Dunne), [[Replication code](https://osf.io/6gn2c/)]
 - Inherited Social Trust and Depression Among Second-generation Immigrants, [Kyklos](https://doi.org/10.1111/kykl.12453), 2025, [[Replication code](https://osf.io/xadt9/)]
 - Social trust and the support for universal basic income, [European Journal of Political Economy](https://doi.org/10.1016/j.ejpoleco.2023.102495), 2024, [[Replication code](https://github.com/gubellom/replication-code-UBI-paper)]
