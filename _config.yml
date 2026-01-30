@@ -10,7 +10,7 @@ date_format: "%B %d, %Y"
 
 # Layout
 
-show_excerpts: false        # show article excerpts on the home page
+show_excerpts: true        # show article excerpts on the home page
 show_frame: true           # adds a gray frame to the site
 show_sidebar: true       # show a sidebar instead of the usual header
 minimal: false             # use a dark header
@@ -20,7 +20,7 @@ minimal: false             # use a dark header
 navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {file: "presentation.md", title: "About me"} #, icon: assets/fontawesome/home.svg
   - {url: "/michelegubello_Introduction/", title: "R for data analysis"} #, icon: folder-open
-  - {url: "policy.md", title: "Policy"} #, icon: folder-open
+  - {url: "/policy/", title: "Policy"} #, icon: folder-open
   - {file: "replication.md", title: "Publications"} # , icon: briefcase 
  # - {file: "cv.md", title: "CV", icon: envelope }
 
