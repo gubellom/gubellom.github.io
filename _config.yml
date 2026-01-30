@@ -19,8 +19,9 @@ minimal: false             # use a dark header
 
 navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {file: "presentation.md", title: "About me"} #, icon: assets/fontawesome/home.svg
-  - {file: "replication.md", title: "Publications"} # , icon: briefcase 
   - {url: "/michelegubello_Introduction/", title: "R for data analysis"} #, icon: folder-open
+  - {url: "policy.md", title: "Policy"} #, icon: folder-open
+  - {file: "replication.md", title: "Publications"} # , icon: briefcase 
  # - {file: "cv.md", title: "CV", icon: envelope }
 
     #- {title: "Replication code", icon: github, url: "https://github.com/gubellom"}
