@@ -229,6 +229,19 @@ TRUE ~ default_value
 ```
 Finally, `TRUE ~ default_value` is the equivalent of an `else` statement. Namely, if none of the above conditions are met, the code assigns NA of type character.
 
+Notice that `case_when` can work as an alternative for the *nested* `ifelse` function when creating or manipulating categorical variables. Let's have a look at the previous example with the *nested* `ifelse` function. In that example, we assigned value 1, if `eisced` takes values 1 and 2, value 2, if `eisced` takes values 3 and 4 and value 3 if `eisced` takes values 5, 6 and 7. Otherwise, we assigned `NA`. It is possible to do the same using `case_when` and `mutate`:
+
+```r
+# Education
+df_cleaned <- df_cleaned %>%
+  mutate(education = case_when(
+    eisced %in% c(1,2) ~ 1,
+    eisced %in% c(3,4) ~ 2,
+    eisced %in% c(5,6,7) ~ 3,
+    TRUE ~ NA_real_
+  ))
+```
+
 
 ## Keep a subset of the original data that meets certain conditions
 
