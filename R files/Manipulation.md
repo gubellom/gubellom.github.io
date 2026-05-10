@@ -241,7 +241,7 @@ df_cleaned <- df_cleaned %>%
     TRUE ~ NA_real_
   ))
 ```
-If we use `case_when` and the variable <span style="color:red">red education </span> does not exist, the previous code generates the variable following the instruction you give them within  `case_when(...)`.
+If we use `case_when` and the variable `education` does not exist, the previous code generates the variable following the instruction you give them within  `case_when(...)`.
 
 ## Keep a subset of the original data that meets certain conditions
 
