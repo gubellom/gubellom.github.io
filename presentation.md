@@ -25,7 +25,7 @@ permalink: "/"
   <div style="flex: 2; margin-left: 20px;">
     <p> -->
 
-I am a Dublin-based economic consultant working in the industry.  <!--<be>
+I am a Dublin-based senior economist working in the industry.  <!--<be>
 <br> -->
 
 <!--
