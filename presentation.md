@@ -24,8 +24,7 @@ permalink: "/"
   </div>
   <div style="flex: 2; margin-left: 20px;">
     <p> -->
-
-I am a Dublin-based senior economist working in the industry.  <!--<be>
+Welcome to me website!  <!--<be>
 <br> -->
 
 <!--
@@ -34,7 +33,7 @@ I am a Dublin-based senior economist working in the industry.  <!--<be>
 </div>
  -->   
  
-For any query, feel free to contact me.
+For any queries, feel free to contact me.
 
 ### Socials and contact details
 
