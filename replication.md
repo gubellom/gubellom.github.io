@@ -16,7 +16,7 @@ title: "Publications"
 </head>
 
 ### Publications
-- Economic insecurity, greenlash and the demand for climate policies in Europe (with C. Keane), 2026, (*Accepted at Kyklos*)
+- Economic insecurity, greenlash and the demand for climate policies in Europe, [Kyklos](https://doi.org/10.1111/kykl.70068), 2026, (with C. Keane)
 - The political economy of in-kind versus cash redistribution in Europe, [International Tax and Public Finance](https://doi.org/10.1007/s10797-025-09908-6), 2025, (with S.M. Dunne), [[Replication code](https://osf.io/6gn2c/)]
 - Inherited Social Trust and Depression Among Second-generation Immigrants, [Kyklos](https://doi.org/10.1111/kykl.12453), 2025, [[Replication code](https://osf.io/xadt9/)]
 - Social trust and the support for universal basic income, [European Journal of Political Economy](https://doi.org/10.1016/j.ejpoleco.2023.102495), 2024, [[Replication code](https://github.com/gubellom/replication-code-UBI-paper)]
