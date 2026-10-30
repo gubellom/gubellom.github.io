@@ -17,7 +17,7 @@ title: "Publications"
 
 ### Publications
 - Economic insecurity, greenlash and the demand for climate policies in Europe, *Kyklos*, 2026, (with C. Keane)
-- The political economy of in-kind versus cash redistribution in Europe, *International Tax and Public Finance*, 2025, (with S.M. Dunne)
+- The political economy of in-kind versus cash redistribution in Europe, *International Tax and Public Finance*, 2026, (with S.M. Dunne)
 - Inherited Social Trust and Depression Among Second-generation Immigrants, *Kyklos*, 2025
 - Social trust and the support for universal basic income, *European Journal of Political Economy*, 2024
 ### Other research
