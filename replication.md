@@ -38,7 +38,7 @@ title: "Publications"
 <!--
 ## Other ongoing work
 - Desired Hours Worked Over the Business Cycle: Stylised Facts for European Countries (with [D. Tuda](https://sites.google.com/view/doratuda)) (*draft available soon*)
-- Neither a Panacea Nor a Cheap Solution: A Universal Basic Income Analysis for Ireland (with T. Kakoulidou and A. Simon), 2025, (*Draft available upon request*)--> -->
+- Neither a Panacea Nor a Cheap Solution: A Universal Basic Income Analysis for Ireland (with T. Kakoulidou and A. Simon), 2025, (*Draft available upon request*)--> 
 
 
 
