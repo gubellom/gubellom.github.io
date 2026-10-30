@@ -15,9 +15,7 @@ title: "Publications"
 </script>
 </head>
 
-
-
-### Publications
+### Publications and research
 - Drivers of Income Inequality in Ireland and Northern Ireland (with K. Doorley and D. Tuda), 2024 (*R&R Journal of Economic Inequality*)
 - Economic insecurity, greenlash and the demand for climate policies in Europe, *Kyklos*, 2026, (with C. Keane)
 - The political economy of in-kind versus cash redistribution in Europe, *International Tax and Public Finance*, 2025, (with S.M. Dunne)
